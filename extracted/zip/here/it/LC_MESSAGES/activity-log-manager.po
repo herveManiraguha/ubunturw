@@ -1,0 +1,304 @@
+# Italian translation for activity-log-manager
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the activity-log-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: activity-log-manager\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-10-16 10:35+0000\n"
+"PO-Revision-Date: 2013-07-31 16:20+0000\n"
+"Last-Translator: Claudio Arseni <claudio.arseni@gmail.com>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-24 12:17+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+
+#: ../data/activity-log-manager.desktop.in.h:1 ../src/alm.vala:30
+msgid "Activity Log Manager"
+msgstr "Gestore registro attività"
+
+#: ../data/activity-log-manager.desktop.in.h:2
+msgid "Configure what gets logged in your Zeitgeist activity log"
+msgstr "Configura cosa viene salvato nel registro delle attività"
+
+#: ../data/activity-log-manager.desktop.in.h:3
+msgid "Activities and Privacy Manager Tool"
+msgstr "Strumento gestione attività e privacy"
+
+#: ../data/gnome-activity-log-manager-panel.desktop.in.h:1
+msgid "Security & Privacy"
+msgstr "Sicurezza e privacy"
+
+#: ../data/gnome-activity-log-manager-panel.desktop.in.h:2
+msgid "Privacy and Activity Manager"
+msgstr "Privacy e gestione attività"
+
+#. These keywords are used when searching for applications in dashes, etc.
+#: ../data/gnome-activity-log-manager-panel.desktop.in.h:4
+msgid "privacy;activity;log;zeitgeist;diagnostics;error reports;"
+msgstr ""
+"privacy;attività;registrazione;zeitgeist;diagnostica;segnalazioni errori;"
+
+#: ../src/activity-log-manager.vala:50
+msgid "Files & Applications"
+msgstr "File e applicazioni"
+
+#: ../src/activity-log-manager.vala:56
+msgid "Security"
+msgstr "Sicurezza"
+
+#: ../src/activity-log-manager.vala:60
+msgid "Search"
+msgstr "Ricerca"
+
+#: ../src/activity-log-manager.vala:66
+msgid "Diagnostics"
+msgstr "Diagnostica"
+
+#: ../src/searchresults-widget.vala:59
+#, c-format
+msgid "When searching in the Dash:"
+msgstr "Quando si eseguono ricerca dalla Dash:"
+
+#: ../src/searchresults-widget.vala:66
+#, c-format
+msgid "Include online search results"
+msgstr "Includere i risultati da ricerche online"
+
+#: ../src/security-widget.vala:76
+#, c-format
+msgid "Require my password when:"
+msgstr "Richiedere la password quando:"
+
+#: ../src/security-widget.vala:79
+msgid "_Waking from suspend"
+msgstr "_Si riattiva il computer dalla sospensione"
+
+#: ../src/security-widget.vala:84
+msgid "_Returning from blank screen"
+msgstr "Si _riaccende lo schermo"
+
+#: ../src/security-widget.vala:90
+msgid "_if screen has been blank for"
+msgstr "Se lo sc_hermo è stato spento per"
+
+#: ../src/security-widget.vala:111
+msgid "Password Settings"
+msgstr "Impostazioni password"
+
+#: ../src/security-widget.vala:124
+msgid "Power Settings"
+msgstr "Impostazioni alimentazione"
+
+#: ../src/unified-privacy-applications.vala:175
+#: ../src/unified-privacy-applications.vala:342
+#: ../src/unified-privacy.vala:274
+msgid "Name"
+msgstr "Nome"
+
+#: ../src/unified-privacy-applications.vala:228
+msgid "No description available"
+msgstr "Nessuna descrizione disponibile"
+
+#: ../src/unified-privacy-applications.vala:357
+msgid "Last Used"
+msgstr "Ultimo uso"
+
+#: ../src/unified-privacy-applications.vala:370
+msgid "Activity"
+msgstr "Attività"
+
+#: ../src/unified-privacy-applications.vala:412
+#: ../src/unified-privacy.vala:427
+msgid "Select Application"
+msgstr "Seleziona applicazione"
+
+#. Today
+#: ../src/unified-privacy-applications.vala:467
+msgid "Today, %H:%M"
+msgstr "Oggi, %H.%M"
+
+#. Yesterday
+#: ../src/unified-privacy-applications.vala:469
+msgid "Yesterday, %H:%M"
+msgstr "Ieri, %H.%M"
+
+#: ../src/unified-privacy-applications.vala:471
+msgid "%e %B %Y, %H:%M"
+msgstr "%e %B %Y, %H.%M"
+
+#: ../src/unified-privacy-applications.vala:478
+msgid "Never"
+msgstr "Mai"
+
+#: ../src/unified-privacy-history.vala:93 ../src/unified-privacy.vala:793
+msgid "From:"
+msgstr "Dal:"
+
+#: ../src/unified-privacy-history.vala:97
+msgid "To:"
+msgstr "Al:"
+
+#: ../src/unified-privacy-history.vala:108
+#, c-format
+msgid "Invalid Timerange"
+msgstr "Intervallo di tempo non valido"
+
+#: ../src/unified-privacy-history.vala:154
+#: ../src/unified-privacy-history.vala:187
+msgid "%d %B %Y"
+msgstr "%-d %B %Y"
+
+#: ../src/unified-privacy.vala:118
+msgid "Music"
+msgstr "Musica"
+
+#: ../src/unified-privacy.vala:119
+msgid "Videos"
+msgstr "Video"
+
+#: ../src/unified-privacy.vala:120
+msgid "Pictures"
+msgstr "Immagini"
+
+#: ../src/unified-privacy.vala:121
+msgid "Documents"
+msgstr "Documenti"
+
+#: ../src/unified-privacy.vala:122
+msgid "Presentations"
+msgstr "Presentazioni"
+
+#: ../src/unified-privacy.vala:123
+msgid "Spreadsheets"
+msgstr "Fogli di calcolo"
+
+#: ../src/unified-privacy.vala:124
+msgid "Chat Logs"
+msgstr "Registri di chat"
+
+#: ../src/unified-privacy.vala:172
+msgid ""
+"This Operating System keeps track of Files and Applications you've used to "
+"provide extra functionality. If other people can see or access your user "
+"account, you may wish to limit which items are recorded."
+msgstr ""
+"Questo sistema operativo tiene traccia dei file e delle applicazioni "
+"utilizzati per offrire funzionalità aggiuntive. Se altre persone hanno "
+"accesso o possono visualizzare l'account utente, sarebbe opportuno limitare "
+"il numero di elementi che vengono registrati."
+
+#: ../src/unified-privacy.vala:181
+msgid "Record file and application usage"
+msgstr "Registrare gli utilizzi di file e applicazioni"
+
+#: ../src/unified-privacy.vala:197
+msgid "Clear Usage Data…"
+msgstr "Pulisci dati di utilizzo..."
+
+#: ../src/unified-privacy.vala:247
+msgid "Include:"
+msgstr "Includere:"
+
+#: ../src/unified-privacy.vala:257
+msgid "Exclude:"
+msgstr "Escludere:"
+
+#: ../src/unified-privacy.vala:305
+msgid "Remove Item"
+msgstr "Rimuovi elemento"
+
+#: ../src/unified-privacy.vala:389
+msgid "Select a folder to blacklist"
+msgstr "Seleziona cartella da escludere"
+
+#: ../src/unified-privacy.vala:407
+msgid "Select a file to blacklist"
+msgstr "Seleziona un file da escludere"
+
+#: ../src/unified-privacy.vala:773
+msgid "Clear Usage Data"
+msgstr "Pulisci dati di utilizzo"
+
+#: ../src/unified-privacy.vala:785
+msgid "Delete records of which files and applications were used:"
+msgstr "Eliminare le registrazioni di file e applicazioni utilizzati:"
+
+#: ../src/unified-privacy.vala:790
+msgid "In the past hour"
+msgstr "Nell'ultima ora"
+
+#: ../src/unified-privacy.vala:791
+msgid "In the past day"
+msgstr "Nell'ultimo giorno"
+
+#: ../src/unified-privacy.vala:792
+msgid "In the past week"
+msgstr "Nell'ultima settimana"
+
+#: ../src/unified-privacy.vala:794
+msgid "From all time"
+msgstr "Tutto"
+
+#: ../src/unified-privacy.vala:874
+msgid ""
+"This operation cannot be undone, are you sure you want to delete this "
+"activity?"
+msgstr ""
+"Questa operazione non può essere annullata: eliminare questa attività?"
+
+#: ../data/whoopsie.ui.h:1
+msgid ""
+"Ubuntu can collect anonymous information that helps developers improve it. "
+"All information collected is covered by our privacy policy."
+msgstr ""
+"Ubuntu può raccogliere informazioni anonime che possono essere d'aiuto agli "
+"sviluppatori. Tutte le informazioni raccolte sono coperte dalla nostra "
+"informativa sulla privacy."
+
+#: ../data/whoopsie.ui.h:2
+msgid "Privacy Policy"
+msgstr "Informativa sulla privacy"
+
+#: ../data/whoopsie.ui.h:3
+msgid "People using this computer can:"
+msgstr "Gli utenti di questo computer possono:"
+
+#: ../data/whoopsie.ui.h:4
+msgid "Send error reports to Canonical"
+msgstr "Inviare segnalazioni d'errore a Canonical"
+
+#: ../data/whoopsie.ui.h:5
+msgid ""
+"<small>Error reports include information about what a program was doing when "
+"it failed. You always have the choice to send or cancel an error "
+"report.</small>"
+msgstr ""
+"<small>Le segnalazioni di errori includono informazioni relative al "
+"programma che era in esecuzione quando si è verificato il problema. È sempre "
+"possibile scegliere se inviare o meno la segnalazione d'errore.</small>"
+
+#: ../data/whoopsie.ui.h:6
+msgid "Send a report automatically if a problem prevents login"
+msgstr ""
+"Inviare automaticamente una segnalazione se un problema impedisce l'accesso"
+
+#: ../data/whoopsie.ui.h:7
+msgid "Show Previous Reports"
+msgstr "Mostra segnalazioni precedenti"
+
+#: ../data/whoopsie.ui.h:8
+msgid "Send occasional system information to Canonical"
+msgstr "Inviare informazioni di sistema a Canonical"
+
+#: ../data/whoopsie.ui.h:9
+msgid ""
+"<small>This includes things like how many programs are running, how much "
+"disk space the computer has, and what devices are connected.</small>"
+msgstr ""
+"<small>Le informazioni inviate includono: quanti programmi sono in "
+"esecuzione, lo spazio su disco e quali dispositivi sono collegati.</small>"

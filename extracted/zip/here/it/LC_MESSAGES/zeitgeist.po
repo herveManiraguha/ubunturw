@@ -1,0 +1,108 @@
+# Italian translation for zeitgeist
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the zeitgeist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: zeitgeist\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-14 00:38+0000\n"
+"PO-Revision-Date: 2013-09-20 08:16+0000\n"
+"Last-Translator: Milo Casagrande <milo.casagrande@gmail.com>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-24 12:07+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+"Language: it\n"
+
+#: ../data/zeitgeist-datahub.desktop.in.h:1
+msgid "Zeitgeist Datahub"
+msgstr "Datahub Zeitgeist"
+
+#: ../data/zeitgeist-datahub.desktop.in.h:2
+msgid "Start the Zeitgeist Datahub for passive loggers"
+msgstr "Avvia il datahub di Zeitgeist per i logger passivi"
+
+#: ../tools/zeitgeist-explorer/details.py:71
+msgid "No value"
+msgstr "Nessun valore"
+
+#: ../tools/zeitgeist-explorer/details.py:101
+#, python-format
+msgid "Event #%s: %s"
+msgstr "Evento n° %s: %s"
+
+#: ../tools/zeitgeist-explorer/details.py:104
+#, python-format
+msgid "Event #%s"
+msgstr "Evento n° %s"
+
+#: ../tools/zeitgeist-explorer/details.py:111
+msgid "Timestamp"
+msgstr "Data e ora"
+
+#: ../tools/zeitgeist-explorer/details.py:112
+#: ../tools/zeitgeist-explorer/details.py:139
+#: ../tools/zeitgeist-explorer/details.py:163
+msgid "Interpretation"
+msgstr "Interpretazione"
+
+#: ../tools/zeitgeist-explorer/details.py:114
+#: ../tools/zeitgeist-explorer/details.py:141
+#: ../tools/zeitgeist-explorer/details.py:164
+msgid "Manifestation"
+msgstr "Manifestazione"
+
+#: ../tools/zeitgeist-explorer/details.py:116
+msgid "Actor"
+msgstr "Attore"
+
+#: ../tools/zeitgeist-explorer/details.py:117
+#: ../tools/zeitgeist-explorer/details.py:143
+msgid "Origin"
+msgstr "Origine"
+
+#: ../tools/zeitgeist-explorer/details.py:130
+#: ../tools/zeitgeist-explorer/details.py:133
+#, python-format
+msgid "Subject: %s"
+msgstr "Oggetto: %s"
+
+#: ../tools/zeitgeist-explorer/details.py:138
+msgid "URI"
+msgstr "URI"
+
+#: ../tools/zeitgeist-explorer/details.py:144
+msgid "MIME-Type"
+msgstr "Tipo MIME"
+
+#: ../tools/zeitgeist-explorer/details.py:145
+msgid "Storage"
+msgstr "Memoria"
+
+#: ../tools/zeitgeist-explorer/details.py:147
+msgid "Current URI"
+msgstr "URI attuale"
+
+#: ../tools/zeitgeist-explorer/details.py:162
+msgid "Subject"
+msgstr "Oggetto"
+
+#: ../tools/zeitgeist-explorer/ontology.py:77
+msgid "Event Interpretations"
+msgstr "Interpretazioni eventi"
+
+#: ../tools/zeitgeist-explorer/ontology.py:86
+msgid "Subject Interpretations"
+msgstr "Interpretazioni oggetti"
+
+#: ../tools/zeitgeist-explorer/ontology.py:99
+msgid "Event Manifestations"
+msgstr "Manifestazioni eventi"
+
+#: ../tools/zeitgeist-explorer/ontology.py:108
+msgid "Subject Manifestations"
+msgstr "Manifestazioni soggetti"

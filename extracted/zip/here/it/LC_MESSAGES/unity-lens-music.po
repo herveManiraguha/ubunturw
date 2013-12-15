@@ -1,0 +1,296 @@
+# Italian translation for unity-lens-music
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the unity-lens-music package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: unity-lens-music\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-10-14 02:51+0000\n"
+"PO-Revision-Date: 2013-10-17 07:31+0000\n"
+"Last-Translator: Milo Casagrande <milo.casagrande@gmail.com>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-24 12:18+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+
+#: ../src/banshee-scope.vala:35 ../src/rhythmbox-scope.vala:37
+#: ../src/musicstore-scope.vala:48
+msgid "Search music"
+msgstr "Cerca nella musica"
+
+#: ../src/banshee-scope.vala:40 ../banshee.scope.in.in.h:1
+msgid "Banshee"
+msgstr "Banshee"
+
+#: ../src/banshee-scope.vala:114 ../src/rhythmbox-scope.vala:106
+#: ../src/rhythmbox-scope.vala:134
+msgid "Play"
+msgstr "Riproduci"
+
+#: ../src/banshee-scope.vala:118 ../src/rhythmbox-scope.vala:110
+#: ../src/rhythmbox-scope.vala:138
+msgid "Show in Folder"
+msgstr "Mostra nella cartella"
+
+#: ../src/rhythmbox-scope.vala:42 ../rhythmbox.scope.in.in.h:1
+msgid "Rhythmbox"
+msgstr "Rhythmbox"
+
+#: ../src/simple-scope.vala:70
+msgid "Decade"
+msgstr "Decade"
+
+#: ../src/simple-scope.vala:72
+msgid "Old"
+msgstr "Altro"
+
+#: ../src/simple-scope.vala:73
+msgid "60s"
+msgstr "'60"
+
+#: ../src/simple-scope.vala:74
+msgid "70s"
+msgstr "'70"
+
+#: ../src/simple-scope.vala:75
+msgid "80s"
+msgstr "'80"
+
+#: ../src/simple-scope.vala:76
+msgid "90s"
+msgstr "'90"
+
+#: ../src/simple-scope.vala:77
+msgid "00s"
+msgstr "'00"
+
+#: ../src/simple-scope.vala:78
+msgid "10s"
+msgstr "'10"
+
+#: ../src/simple-scope.vala:85
+msgid "Genre"
+msgstr "Genere"
+
+#: ../src/simple-scope.vala:88
+msgid "Blues"
+msgstr "Blues"
+
+#: ../src/simple-scope.vala:89
+msgid "Classical"
+msgstr "Classica"
+
+#: ../src/simple-scope.vala:90
+msgid "Country"
+msgstr "Country"
+
+#: ../src/simple-scope.vala:91
+msgid "Disco"
+msgstr "Disco"
+
+#: ../src/simple-scope.vala:92
+msgid "Funk"
+msgstr "Funk"
+
+#: ../src/simple-scope.vala:93
+msgid "Rock"
+msgstr "Rock"
+
+#: ../src/simple-scope.vala:94
+msgid "Metal"
+msgstr "Metal"
+
+#: ../src/simple-scope.vala:95
+msgid "Hip-hop"
+msgstr "Hip-hop"
+
+#: ../src/simple-scope.vala:96
+msgid "House"
+msgstr "House"
+
+#: ../src/simple-scope.vala:97
+msgid "New-wave"
+msgstr "New-wave"
+
+#: ../src/simple-scope.vala:98
+msgid "R&B"
+msgstr "R&B"
+
+#: ../src/simple-scope.vala:99
+msgid "Punk"
+msgstr "Punk"
+
+#: ../src/simple-scope.vala:100
+msgid "Jazz"
+msgstr "Jazz"
+
+#: ../src/simple-scope.vala:101
+msgid "Pop"
+msgstr "Pop"
+
+#: ../src/simple-scope.vala:102
+msgid "Reggae"
+msgstr "Reggae"
+
+#: ../src/simple-scope.vala:103
+msgid "Soul"
+msgstr "Soul"
+
+#: ../src/simple-scope.vala:104
+msgid "Techno"
+msgstr "Techno"
+
+#: ../src/simple-scope.vala:105
+msgid "Other"
+msgstr "Other"
+
+#: ../src/simple-scope.vala:120
+msgid "Music"
+msgstr "Musica"
+
+#: ../src/simple-scope.vala:124
+msgid "Songs"
+msgstr "Brani"
+
+#: ../src/simple-scope.vala:128
+msgid "Albums"
+msgstr "Album"
+
+#: ../src/simple-scope.vala:132
+msgid "More suggestions"
+msgstr "Altri suggerimenti"
+
+#: ../src/simple-scope.vala:137
+msgid "Radio"
+msgstr "Radio"
+
+#: ../src/simple-scope.vala:205
+msgid "Sorry, there is no music that matches your search."
+msgstr "Nessun elemento musicale corrisponde alla ricerca"
+
+#: ../src/musicstore-scope.vala:28
+msgid ""
+"It seems you don't have an Ubuntu One account, or you are not logged in. To "
+"continue, please login and visit the Ubuntu One online store."
+msgstr ""
+"Non risulta essere attivo un account di Ubuntu One valido o non è stato "
+"effettuato l'accesso. Per continuare, effettuare l'accesso e visitare il "
+"negozio online di Ubuntu One."
+
+#: ../src/musicstore-scope.vala:29
+msgid ""
+"It seems you haven't set yet your preferred Ubuntu One payment method. To "
+"add a payment method, please visit the Ubuntu One online store."
+msgstr ""
+"Non risulta ancora impostato il metodo di pagamento preferito per Ubuntu "
+"One. Per aggiungere un metodo di pagamento, visitare il negozio online di "
+"Ubuntu One."
+
+#: ../src/musicstore-scope.vala:30
+msgid ""
+"Sorry, we have encountered a technical problem. No money has been taken from "
+"your account. To try your purchase again, please visit the Ubuntu One online "
+"store."
+msgstr ""
+"Si è verificato un problema tecnico: nessun addebito è stato effettuato sul "
+"proprio conto. Per tentare nuovamente l'acquisto, visitare il negozio online "
+"di Ubuntu One."
+
+#: ../src/musicstore-scope.vala:57
+msgid "Purchase started"
+msgstr "Acquisto iniziato"
+
+#: ../src/musicstore-scope.vala:130
+msgid "Download"
+msgstr "Scarica"
+
+#: ../src/musicstore-scope.vala:134
+msgid "Free"
+msgstr "Gratuito"
+
+#: ../src/musicstore-scope.vala:185 ../src/musicstore-scope.vala:387
+msgid "Digital CD"
+msgstr "CD digitale"
+
+#: ../src/musicstore-scope.vala:192 ../src/musicstore-scope.vala:409
+msgid "Cancel"
+msgstr "Annulla"
+
+#: ../src/musicstore-scope.vala:313
+msgid "Go to Ubuntu One"
+msgstr "Vai a Ubuntu One"
+
+#: ../src/musicstore-scope.vala:324
+msgid "Please enter your password"
+msgstr "Digitare la password"
+
+#: ../src/musicstore-scope.vala:340
+msgid "Authorizing purchase"
+msgstr "Autorizzazione acquisto in corso"
+
+#: ../src/musicstore-scope.vala:350
+msgid "Purchase completed"
+msgstr "Acquisto completato"
+
+#: ../src/musicstore-scope.vala:360
+msgid "Wrong password"
+msgstr "Password non corretta"
+
+#: ../src/musicstore-scope.vala:363
+msgid "Continue"
+msgstr "Continua"
+
+#: ../src/musicstore-scope.vala:382
+#, c-format
+msgid "Hi %s, you purchased in the past from Ubuntu One,"
+msgstr "Ciao %s, hai già effettuato acquisti con Ubuntu One,"
+
+#. actions
+#: ../src/musicstore-scope.vala:401
+msgid "Buy Now"
+msgstr "Acquista ora"
+
+#: ../src/musicstore-scope.vala:405
+msgid "forgotten your Ubuntu One password?"
+msgstr "hai per caso perso la password di Ubuntu One?"
+
+#: ../src/musicstore-scope.vala:413
+msgid "change payment method"
+msgstr "Modifica metodo pagamento"
+
+#: ../banshee.scope.in.in.h:2
+msgid ""
+"This is an Ubuntu search plugin that enables information from Banshee to be "
+"searched and displayed in the Dash underneath the Music header. If you do "
+"not wish to search this content source, you can disable this search plugin."
+msgstr ""
+
+#: ../banshee.scope.in.in.h:3 ../rhythmbox.scope.in.in.h:3
+msgid "Search music collection"
+msgstr "Cerca nella collezione musicale"
+
+#: ../rhythmbox.scope.in.in.h:2
+msgid ""
+"This is an Ubuntu search plugin that enables information from Rhythmbox to "
+"be searched and displayed in the Dash underneath the Music header. If you do "
+"not wish to search this content source, you can disable this search plugin."
+msgstr ""
+
+#: ../musicstore.scope.in.in.h:1
+msgid "Music store"
+msgstr ""
+
+#: ../musicstore.scope.in.in.h:2
+msgid ""
+"This is an Ubuntu search plugin that enables information from Ubuntu One to "
+"be searched and displayed in the Dash underneath the Music header. If you do "
+"not wish to search this content source, you can disable this search plugin."
+msgstr ""
+
+#: ../musicstore.scope.in.in.h:3
+msgid "Search music store"
+msgstr ""

@@ -1,0 +1,1736 @@
+# French translation for upstart
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the upstart package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: upstart\n"
+"Report-Msgid-Bugs-To: new@bugs.launchpad.net\n"
+"POT-Creation-Date: 2013-08-23 15:36+0100\n"
+"PO-Revision-Date: 2013-10-19 20:19+0000\n"
+"Last-Translator: Christian <christian.chiev@gmail.com>\n"
+"Language-Team: French <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-24 11:39+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+
+#: init/conf.c:488 init/session.c:254
+msgid "Unable to load configuration"
+msgstr "Impossible de charger la configuration"
+
+#: init/conf.c:521
+#, c-format
+msgid "Loading configuration from %s"
+msgstr "Chargement de la configuration depuis %s"
+
+#: init/conf.c:558
+#, c-format
+msgid "Handling deletion of %s"
+msgstr "Traitement de la suppression de %s"
+
+#: init/conf.c:635
+msgid "Unable to watch configuration file"
+msgstr "Impossible de surveiller le fichier de configuration"
+
+#: init/conf.c:730
+msgid "Unable to watch configuration directory"
+msgstr "Impossible de surveiller le répertoire de configuration"
+
+#: init/conf.c:854
+msgid "Error while loading configuration file"
+msgstr "Erreur lors du chargement du fichier de configuration"
+
+#: init/conf.c:968
+msgid "Configuration directory deleted"
+msgstr "Répertoire de configuration supprimé"
+
+#: init/control.c:204
+msgid "Connection from private client"
+msgstr "Connexion depuis un client privé"
+
+#: init/control.c:348
+msgid "Disconnected from system bus"
+msgstr "Déconnecté du bus système"
+
+#: init/control.c:419
+msgid "You do not have permission to reload configuration"
+msgstr "Vous n'avez pas la permission de recharger la configuration"
+
+#: init/control.c:423 init/main.c:919
+msgid "Reloading configuration"
+msgstr "Rechargement de la configuration"
+
+#: init/control.c:467 init/control.c:628
+msgid "Name may not be empty string"
+msgstr "Le nom ne peut pas être une chaîne vide"
+
+#: init/control.c:498
+#, c-format
+msgid "Unknown job: %s"
+msgstr "Tâche inconnue : %s"
+
+#: init/control.c:621
+msgid "You do not have permission to emit an event"
+msgstr "Vous n'avez pas la permission d’émettre un événement"
+
+#: init/control.c:636 init/job_class.c:818 init/job_class.c:1028
+#: init/job_class.c:1168 init/job_class.c:1303
+msgid "Env must be KEY=VALUE pairs"
+msgstr "L'environnement D-Bus doit être constitué de paires CLÉ=VALEUR"
+
+#: init/control.c:788
+msgid "You do not have permission to set log priority"
+msgstr "Vous n'avez pas la permission de fixer la priorité de journalisation"
+
+#: init/control.c:812
+msgid "The log priority given was not recognised"
+msgstr "La priorité de journalisation indiquée n'a pas été reconnue"
+
+#: init/control.c:863
+msgid "You do not have permission to notify disk is writeable"
+msgstr ""
+"Vous n'avez pas la permission de notifier que le disque est accessible en "
+"écriture"
+
+#: init/control.c:1042
+msgid "You do not have permission to request state"
+msgstr "Vous n'avez pas la permission de demander l'état"
+
+#: init/control.c:1055
+msgid "Ignoring state query from chroot session"
+msgstr "Non prise en compte de la demande d'état depuis la session chroot"
+
+#: init/control.c:1068
+msgid "Out of Memory"
+msgstr "Mémoire insuffisante"
+
+#: init/control.c:1096
+msgid "You do not have permission to request restart"
+msgstr "Vous n'avez pas la permission de demander le redémarrage"
+
+#: init/control.c:1110
+msgid "Ignoring restart request from chroot session"
+msgstr ""
+"Non prise en compte la demande de redémarrage depuis la session chroot"
+
+#: init/control.c:1114
+msgid "Restarting"
+msgstr "Redémarrage"
+
+#: init/control.c:1208 init/control.c:1313 init/control.c:1567
+msgid "Not permissible to modify PID 1 job environment"
+msgstr ""
+
+#: init/control.c:1215 init/control.c:1301 init/control.c:1574
+msgid "You do not have permission to modify job environment"
+msgstr ""
+"Vous n'avez pas la permission de modifier l’environnement de la tâche"
+
+#: init/control.c:1222 init/control.c:1320 init/control.c:1410
+#: init/control.c:1506 init/control.c:1581
+msgid "Job may not be empty string"
+msgstr "La tâche ne peut être une chaîne vide"
+
+#: init/control.c:1233
+msgid "Ignoring set env request from chroot session"
+msgstr "Ignorer la demande set env de la session chroot"
+
+#: init/control.c:1331
+msgid "Ignoring unset env request from chroot session"
+msgstr "Ignorer la demande unset env de la session chroot"
+
+#: init/control.c:1357 init/control.c:1454
+msgid "No such variable"
+msgstr "Pas de telle variable"
+
+#: init/control.c:1396 init/control.c:1492
+msgid "You do not have permission to query job environment"
+msgstr "Vous n'avez pas les droits de requête à l'environnement des tâches"
+
+#: init/control.c:1421
+msgid "Ignoring get env request from chroot session"
+msgstr "Ignorer la demande get env de la session chroot"
+
+#: init/control.c:1592
+msgid "Ignoring reset env request from chroot session"
+msgstr "Ignorer la demande reset env de la session chroot"
+
+#: init/control.c:1725
+msgid "unable to create session file"
+msgstr "impossible de créer un fichier de session"
+
+#: init/control.c:1732
+msgid "unable to write session file"
+msgstr "impossible d'écrire le fichier de session"
+
+#: init/control.c:1781
+msgid "You do not have permission to end session"
+msgstr "Vous n'avez pas la permission de fermer la session"
+
+#: init/control.c:1789
+msgid "Ignoring session end request from chroot session"
+msgstr ""
+"Ne pas prendre en compte la demande de fermeture de session de la session "
+"chroot"
+
+#: init/errors.h:63
+msgid "Illegal parameter"
+msgstr "Paramètre illégal"
+
+#: init/errors.h:64
+msgid "Unknown parameter"
+msgstr "Paramètre inconnu"
+
+#: init/errors.h:65 init/errors.h:78
+msgid "Expected operator"
+msgstr "Opérateur attendu"
+
+#: init/errors.h:66
+msgid "Mismatched braces"
+msgstr "Accolades dépareillées"
+
+#: init/errors.h:67
+msgid "Invalid setuid user name does not exist"
+msgstr "setuid non valide le nom d'utilisateur n'existe pas"
+
+#: init/errors.h:68
+msgid "Invalid setgid group name does not exist"
+msgstr "setgid non valide le nom de groupe n'existe pas"
+
+#: init/errors.h:69
+msgid "Illegal interval, expected number of seconds"
+msgstr "Intervalle illégal, nombre de secondes attendu"
+
+#: init/errors.h:70
+msgid "Illegal exit status, expected integer"
+msgstr "État de sortie illégal, entier attendu"
+
+#: init/errors.h:71
+msgid "Illegal signal status, expected integer"
+msgstr "État de signal illégal, entier attendu"
+
+#: init/errors.h:72
+msgid "Illegal file creation mask, expected octal integer"
+msgstr "Masque de création de fichier illégal, entier octal attendu"
+
+#: init/errors.h:73
+msgid "Illegal nice value, expected -20 to 19"
+msgstr "Valeur de nice illégale, -20 à 19 attendu"
+
+#: init/errors.h:74
+msgid "Illegal oom adjustment, expected -16 to 15 or 'never'"
+msgstr "Ajustement oom illégal, -16 à 15 ou « jamais » attendus"
+
+#: init/errors.h:75
+msgid "Illegal oom score adjustment, expected -999 to 1000 or 'never'"
+msgstr "Ajustement du score oom illégal, -999 à 1000 ou « jamais » attendus"
+
+#: init/errors.h:76
+msgid "Illegal limit, expected 'unlimited' or integer"
+msgstr "Limite illégale, « illimité » ou entier attendu"
+
+#: init/errors.h:77
+msgid "Expected event"
+msgstr "Événement attendu"
+
+#: init/errors.h:79
+msgid "Expected variable name before value"
+msgstr "Nom de variable attendu avant la valeur"
+
+#: init/errors.h:80
+msgid "Mismatched parentheses"
+msgstr "Parenthèses dépareillées"
+
+#: init/errors.h:81
+msgid "Name already taken"
+msgstr "Ce nom est déjà utilisé"
+
+#: init/event.c:286
+#, c-format
+msgid "Handling %s event"
+msgstr "Traitement de l'événement %s"
+
+#: init/event.c:393
+#, c-format
+msgid "Failed to obtain %s instance: %s"
+msgstr "Échec d'obtention de l'instance %s : %s"
+
+#: init/event.c:476
+msgid "Event failed"
+msgstr "Échec de l'évènement"
+
+#: init/job.c:280
+#, c-format
+msgid "%s goal changed from %s to %s"
+msgstr "L'objectif %s a été changé de %s en %s"
+
+#: init/job.c:351
+#, c-format
+msgid "%s state changed from %s to %s"
+msgstr "L'état de %s a été changé de %s en %s"
+
+#: init/job.c:797 init/job.c:835
+msgid "Job failed to start"
+msgstr "Échec du démarrage de la tâche"
+
+#: init/job.c:810 init/job.c:846
+msgid "Job failed while stopping"
+msgstr "Échec lors de l'arrêt de la tâche"
+
+#: init/job.c:822 init/job.c:857
+msgid "Job failed to restart"
+msgstr "Échec du redémarrage de la tâche"
+
+#: init/job.c:1051
+msgid "stop"
+msgstr "arrêter"
+
+#: init/job.c:1053
+msgid "start"
+msgstr "démarrer"
+
+#: init/job.c:1055
+msgid "respawn"
+msgstr "régénérer"
+
+#: init/job.c:1100
+msgid "waiting"
+msgstr "en attente"
+
+#: init/job.c:1102
+msgid "starting"
+msgstr "démarrage"
+
+#: init/job.c:1104 init/process.c:90
+msgid "security"
+msgstr ""
+
+#: init/job.c:1106 init/process.c:82
+msgid "pre-start"
+msgstr "pré-démarrage"
+
+#: init/job.c:1108
+msgid "spawned"
+msgstr "généré"
+
+#: init/job.c:1110 init/process.c:84
+msgid "post-start"
+msgstr "post-démarrage"
+
+#: init/job.c:1112
+msgid "running"
+msgstr "en cours"
+
+#: init/job.c:1114 init/process.c:86
+msgid "pre-stop"
+msgstr "pré-arrêt"
+
+#: init/job.c:1116
+msgid "stopping"
+msgstr "en cours d'arrêt"
+
+#: init/job.c:1118
+msgid "killed"
+msgstr "tué"
+
+#: init/job.c:1120 init/process.c:88
+msgid "post-stop"
+msgstr "post-arrêt"
+
+#: init/job.c:1205 init/job.c:1280 init/job.c:1356 init/job.c:1425
+#: init/job_class.c:1020 init/job_class.c:1160 init/job_class.c:1295
+#, c-format
+msgid "You do not have permission to modify job: %s"
+msgstr "Vous n'avez pas l'autorisation de modifier la tâche : %s"
+
+#: init/job.c:1213 init/job_class.c:1084
+#, c-format
+msgid "Job is already running: %s"
+msgstr "La tâche est déjà en cours d'exécution : %s"
+
+#: init/job.c:1288 init/job.c:1364 init/job_class.c:1214 init/job_class.c:1348
+#, c-format
+msgid "Job has already been stopped: %s"
+msgstr "La tâche a déjà été arrêtée : %s"
+
+#: init/job.c:1433
+#, c-format
+msgid "Job is not running: %s"
+msgstr ""
+
+#: init/job.c:1911 init/job_class.c:2162 init/job_class.c:2197
+msgid "BUG"
+msgstr "BOGUE"
+
+#: init/job.c:1912
+msgid "instance 'stop on' parse error"
+msgstr ""
+
+#: init/job_class.c:848 init/job_class.c:1058 util/initctl.c:1689
+msgid "Usage"
+msgstr "Utilisation"
+
+#: init/job_class.c:866 init/job_class.c:911 init/job_class.c:1206
+#: init/job_class.c:1340
+#, c-format
+msgid "Unknown instance: %s"
+msgstr "Instance inconnue : %s"
+
+#: init/job_class.c:2163
+msgid "'start on' parse error"
+msgstr ""
+
+#: init/job_class.c:2198
+msgid "'stop on' parse error"
+msgstr ""
+
+#: init/job_class.c:2533
+msgid "unable to clear CLOEXEC bit on log fd"
+msgstr ""
+
+#: init/job_process.c:325
+#, c-format
+msgid "Failed to spawn %s %s process: %s"
+msgstr "Échec de la génération du processus %s %s : %s"
+
+#: init/job_process.c:331
+msgid "Temporary process spawn error"
+msgstr "Erreur temporaire de génération de processus"
+
+#: init/job_process.c:338
+#, c-format
+msgid "%s %s process (%d)"
+msgstr "processus %s %s (%d)"
+
+#: init/job_process.c:487
+msgid "Failed to create pty - disabling logging for job"
+msgstr ""
+"Échec de la création de pseudo-terminal (pty) - journalisation désactivée "
+"pour la tâche"
+
+#: init/job_process.c:534
+#, c-format
+msgid "Pausing %s (%d) [pre-exec] for debug"
+msgstr "Mise en pause de %s (%d) [pre-exec] pour débogage"
+
+#: init/job_process.c:671
+#, c-format
+msgid "Failed to open system console: %s"
+msgstr "Impossible d'ouvrir la console système : %s"
+
+#: init/job_process.c:1034
+#, c-format
+msgid "unable to move script fd: %s"
+msgstr "Impossible de déplacer le script fd : %s"
+
+#: init/job_process.c:1039
+#, c-format
+msgid "unable to open console: %s"
+msgstr "impossible d'ouvrir la console : %s"
+
+#: init/job_process.c:1094
+#, c-format
+msgid "unable to set \"%s\" resource limit: %s"
+msgstr "impossible de fixer la limite de ressource « %s » : %s"
+
+#: init/job_process.c:1099
+#, c-format
+msgid "unable to set priority: %s"
+msgstr "impossible de fixer la priorité : %s"
+
+#: init/job_process.c:1104
+#, c-format
+msgid "unable to set oom adjustment: %s"
+msgstr "impossible de définir l'ajustement oom : %s"
+
+#: init/job_process.c:1109
+#, c-format
+msgid "unable to change root directory: %s"
+msgstr "impossible de changer le répertoire racine : %s"
+
+#: init/job_process.c:1114
+#, c-format
+msgid "unable to change working directory: %s"
+msgstr "impossible de changer le répertoire de travail : %s"
+
+#: init/job_process.c:1119
+#, c-format
+msgid "unable to set trace: %s"
+msgstr "impossible de régler la trace : %s"
+
+#: init/job_process.c:1124
+#, c-format
+msgid "unable to execute: %s"
+msgstr "impossible d'exécuter : %s"
+
+#: init/job_process.c:1129
+#, c-format
+msgid "unable to getpwnam: %s"
+msgstr "impossible de getpwnam : %s"
+
+#: init/job_process.c:1134
+#, c-format
+msgid "unable to getgrnam: %s"
+msgstr "impossible de getgrnam : %s"
+
+#: init/job_process.c:1139
+#, c-format
+msgid "unable to getpwuid: %s"
+msgstr "impossible de getpwuid : %s"
+
+#: init/job_process.c:1144
+#, c-format
+msgid "unable to getgrgid: %s"
+msgstr "impossible de getgrgid : %s"
+
+#: init/job_process.c:1149
+msgid "unable to find setuid user"
+msgstr "Impossible de trouver l'utilisateur setuid"
+
+#: init/job_process.c:1153
+msgid "unable to find setgid group"
+msgstr "Impossible de trouver le groupe setgid"
+
+#: init/job_process.c:1157
+#, c-format
+msgid "unable to setuid: %s"
+msgstr "incapable de setuid : %s"
+
+#: init/job_process.c:1162
+#, c-format
+msgid "unable to setgid: %s"
+msgstr "incapable de setgid : %s"
+
+#: init/job_process.c:1167
+#, c-format
+msgid "unable to chown: %s"
+msgstr "incapable de chown : %s"
+
+#: init/job_process.c:1172
+#, c-format
+msgid "unable to unlockpt: %s"
+msgstr "incapable de unlockpt : %s"
+
+#: init/job_process.c:1177
+#, c-format
+msgid "unable to granpt: %s"
+msgstr "impossible de granpt : %s"
+
+#: init/job_process.c:1182
+#, c-format
+msgid "unable to get ptsname: %s"
+msgstr "impossible d'obtenir ptsname : %s"
+
+#: init/job_process.c:1187
+#, c-format
+msgid "unable to open pty slave: %s"
+msgstr "impossible d'ouvrir le pseudo-terminal (pty) esclave : %s"
+
+#: init/job_process.c:1192
+#, c-format
+msgid "unable to modify signal handler: %s"
+msgstr "impossible de modifier le signal handler : %s"
+
+#: init/job_process.c:1197
+#, c-format
+msgid "unable to allocate memory: %s"
+msgstr "allocation de mémoire impossible : %s"
+
+#: init/job_process.c:1202
+#, c-format
+msgid "unable to initgroups: %s"
+msgstr ""
+
+#: init/job_process.c:1207
+#, c-format
+msgid "unable to switch security profile: %s"
+msgstr ""
+
+#: init/job_process.c:1238 init/job_process.c:1371
+#, c-format
+msgid "Sending %s signal to %s %s process (%d)"
+msgstr "Envoi du signal %s au processus %s %s (%d)"
+
+#: init/job_process.c:1247 init/job_process.c:1380
+#, c-format
+msgid "Failed to send %s signal to %s %s process (%d): %s"
+msgstr "Échec de l'envoi du signal %s au processus %s %s (%d) : %s"
+
+#: init/job_process.c:1441
+#, c-format
+msgid "%s %s process (%d) terminated with status %d"
+msgstr "Le processus %s %s (%d) s'est achevé avec l'état %d"
+
+#: init/job_process.c:1446
+#, c-format
+msgid "%s %s process (%d) exited normally"
+msgstr "Le processus %s %s (%d) s'est achevé normalement"
+
+#: init/job_process.c:1461
+#, c-format
+msgid "%s %s process (%d) killed by %s signal"
+msgstr "Le processus %s %s (%d) a été tué par le signal %s"
+
+#: init/job_process.c:1465
+#, c-format
+msgid "%s %s process (%d) killed by signal %d"
+msgstr "Le processus %s %s (%d) a été tué par le signal %d"
+
+#: init/job_process.c:1479
+#, c-format
+msgid "%s %s process (%d) stopped by %s signal"
+msgstr "Le processus %s %s (%d) a été stoppé par le signal %s"
+
+#: init/job_process.c:1483
+#, c-format
+msgid "%s %s process (%d) stopped by signal %d"
+msgstr "Le processus %s %s (%d) a été stoppé par le signal %d"
+
+#: init/job_process.c:1497
+#, c-format
+msgid "%s %s process (%d) continued by %s signal"
+msgstr "Le processus %s %s (%d) a été relancé par le signal %s"
+
+#: init/job_process.c:1501
+#, c-format
+msgid "%s %s process (%d) continued by signal %d"
+msgstr "Le processus %s %s (%d) a été relancé par le signal %d"
+
+#: init/job_process.c:1636
+#, c-format
+msgid "%s respawning too fast, stopped"
+msgstr "Régénération de %s trop rapide, arrêt"
+
+#: init/job_process.c:1642
+#, c-format
+msgid "%s %s process ended, respawning"
+msgstr "Le processus %s %s s'est achevé, redémarrage"
+
+#: init/job_process.c:1753
+msgid "Failed to add log to unflushed queue"
+msgstr ""
+
+#: init/job_process.c:1919
+#, c-format
+msgid "Failed to set ptrace options for %s %s process (%d): %s"
+msgstr ""
+"Échec lors du réglage des options ptrace pour le processus %s %s (%d) : %s"
+
+#: init/job_process.c:1932 init/job_process.c:2127
+#, c-format
+msgid "Failed to continue traced %s %s process (%d): %s"
+msgstr "Échec lors de la reprise du processus tracé %s %s (%d) : %s"
+
+#: init/job_process.c:1972 init/job_process.c:2063 init/job_process.c:2118
+#, c-format
+msgid "Failed to detach traced %s %s process (%d): %s"
+msgstr "Échec lors de la séparation du processus tracé %s %s (%d) : %s"
+
+#: init/job_process.c:2012
+#, c-format
+msgid "Failed to deliver signal to traced %s %s process (%d): %s"
+msgstr "Échec de l'envoi du signal au processus tracé %s %s (%d) : %s"
+
+#: init/job_process.c:2047
+#, c-format
+msgid "Failed to obtain child process id for %s %s process (%d): %s"
+msgstr ""
+"Échec de l'obtention de l'ID du processus fils pour le processus %s %s "
+"(%d) : %s"
+
+#: init/job_process.c:2054
+#, c-format
+msgid "%s %s process (%d) became new process (%d)"
+msgstr "Le processus %s %s (%d) est devenu le nouveau processus (%d)"
+
+#: init/job_process.c:2113
+#, c-format
+msgid "%s %s process (%d) executable changed"
+msgstr "L'exécutable du processus %s %s (%d) a changé"
+
+#: init/log.c:354
+msgid "Failed to write to log file"
+msgstr "Impossible d'écrire dans le fichier journal"
+
+#: init/main.c:139
+msgid "specify alternative directory to load configuration files from"
+msgstr "Indiquez un autre dossier d'où charger les fichiers de configuration"
+
+#: init/main.c:142
+msgid "default value for console stanza"
+msgstr "valeur par défaut pour la console stanza"
+
+#: init/main.c:145
+msgid "jobs will not inherit environment of init"
+msgstr ""
+
+#: init/main.c:148
+msgid "specify alternative directory to store job output logs in"
+msgstr "spécifier le répertoire alternatif pour stocker les journaux dans"
+
+#: init/main.c:151
+msgid "disable job logging"
+msgstr "désactiver la journalisation des tâches"
+
+#: init/main.c:154
+msgid "disable chroot sessions"
+msgstr "désactiver les sessions chroot"
+
+#: init/main.c:157
+msgid "do not emit any startup event (for testing)"
+msgstr "Ne pas émettre un évènement de démarrage (pour tester)"
+
+#: init/main.c:161
+msgid "flag a re-exec has occurred"
+msgstr ""
+
+#: init/main.c:165
+msgid "specify file descriptor to read serialisation data from"
+msgstr ""
+
+#: init/main.c:168
+msgid "use D-Bus session bus rather than system bus (for testing)"
+msgstr ""
+"utiliser le bus de session D-Bus plutôt que le bus système (pour tester)"
+
+#: init/main.c:171
+msgid "specify an alternative initial event (for testing)"
+msgstr "définir un évènement initial alternatif (pour tester)"
+
+#: init/main.c:174
+msgid "start in user mode (as used for user sessions)"
+msgstr ""
+
+#: init/main.c:177
+msgid "attempt to write state file on every re-exec"
+msgstr ""
+
+#: init/main.c:200
+msgid "Process management daemon."
+msgstr "Démon de gestion de processus."
+
+#: init/main.c:202
+msgid ""
+"This daemon is normally executed by the kernel and given process id 1 to "
+"denote its special status.  When executed by a user process, it will "
+"actually run /sbin/telinit."
+msgstr ""
+"Ce démon est normalement exécuté par le noyau et a l'ID n°1 pour indiquer "
+"son statut spécial. Quand il est exécuté par un processus utilisateur, c'est "
+"en réalité /sbin/telinit qui sera exécuté."
+
+#: init/main.c:228 util/reboot.c:172 util/shutdown.c:373 util/telinit.c:250
+msgid "Need to be root"
+msgstr "Nécessite d'être super-utilisateur (root)"
+
+#: init/main.c:237
+msgid "Not being executed as init"
+msgstr "N'est pas executé comme init"
+
+#: init/main.c:287
+msgid "Unable to mount /dev filesystem"
+msgstr "Impossible de monter le système de fichiers /dev"
+
+#: init/main.c:296
+msgid "Cannot create directory"
+msgstr "Impossible de créer le répertoire"
+
+#: init/main.c:303
+msgid "Unable to mount /dev/pts filesystem"
+msgstr "Impossible de monter le système de fichiers /dev/pts"
+
+#: init/main.c:329
+msgid "Unable to initialize console, will try /dev/null"
+msgstr "Impossible d'initialiser la console, essai de /dev/null"
+
+#: init/main.c:335
+msgid "Unable to initialize console as /dev/null"
+msgstr "Impossible d'initialiser la console en tant que /dev/null"
+
+#: init/main.c:351 init/main.c:801
+msgid "Unable to set root directory"
+msgstr "Impossible de définir le répertoire racine"
+
+#: init/main.c:363
+msgid "Unable to mount /proc filesystem"
+msgstr "Impossible de monter le système de fichiers /proc"
+
+#: init/main.c:372
+msgid "Unable to mount /sys filesystem"
+msgstr "Impossible de monter le système de fichiers /sys"
+
+#: init/main.c:485 init/main.c:491
+msgid "Unable to set default oom score"
+msgstr "Impossible de définir le score de oom par défaut"
+
+#: init/main.c:500
+msgid "Stateful re-exec supported but stateless re-exec requested"
+msgstr ""
+
+#: init/main.c:514
+msgid "Failed to read serialisation data"
+msgstr "Échec de lecture des données de sérialisation"
+
+#: init/main.c:515 init/state.c:1965
+msgid "reverting to stateless re-exec"
+msgstr ""
+
+#: init/main.c:527
+msgid "Both stateful and stateless re-execs failed"
+msgstr ""
+
+#: init/main.c:582
+msgid "Unable to listen for private connections"
+msgstr "Impossible d'écouter des connexions privées"
+
+#: init/main.c:616
+msgid "Unable to setup standard file descriptors"
+msgstr "Impossible de configurer les descripteurs de fichier standard"
+
+#: init/main.c:672
+msgid "Unable to register as subreaper"
+msgstr "Impossible de s'inscrire comme subreaper"
+
+#: init/main.c:818
+#, c-format
+msgid "Caught %s, core dumped"
+msgstr "L'erreur %s a été détectée, un fichier « core » a été généré"
+
+#: init/main.c:822
+#, c-format
+msgid "Caught %s, unable to dump core"
+msgstr ""
+"L'erreur %s été détectée, aucun fichier « core » n'a pas pu être généré"
+
+#: init/main.c:853
+#, c-format
+msgid "Re-executing %s"
+msgstr "Ré-exécution de %s"
+
+#: init/main.c:936
+msgid "Reconnecting to system bus"
+msgstr "Reconnexion au bus système"
+
+#: init/main.c:942
+msgid "Unable to connect to the system bus"
+msgstr "Impossible de se connecter au bus système"
+
+#: init/main.c:1021
+msgid "invalid console type specified"
+msgstr "type de console spécifié invalide"
+
+#: init/process.c:80
+msgid "main"
+msgstr "principal"
+
+#: init/quiesce.c:102
+msgid "logout"
+msgstr "se déconnecter"
+
+#: init/quiesce.c:102
+msgid "shutdown"
+msgstr "éteindre"
+
+#: init/quiesce.c:104
+#, c-format
+msgid "Quiescing due to %s request"
+msgstr ""
+
+#: init/state.c:354 init/state.c:362 init/state.c:371 init/state.c:380
+msgid "Failed to serialise"
+msgstr ""
+
+#: init/state.c:431
+msgid "Detected invalid serialisation data"
+msgstr "Données de sérialisation invalides détectées"
+
+#: init/state.c:440 init/state.c:445 init/state.c:454 init/state.c:462
+msgid "Failed to deserialise"
+msgstr ""
+
+#: init/state.c:458
+msgid "No ConfSources present in state data"
+msgstr ""
+
+#: init/state.c:467
+msgid "Failed to resolve deserialisation dependencies"
+msgstr ""
+
+#: init/state.c:1660
+msgid "failed to demarshal D-Bus message"
+msgstr ""
+
+#: init/state.c:1925
+#, c-format
+msgid "Failed to re-execute %s: %s"
+msgstr "Échec de la ré-exécution de %s : %s"
+
+#: init/state.c:1964
+msgid "Failed to generate serialisation data"
+msgstr "Échec de la génération des données de sérialisation"
+
+#: init/state.c:1972
+msgid "Performing stateful re-exec"
+msgstr ""
+
+#: init/state.c:2012
+#, c-format
+msgid "Passing state from PID %d to parent"
+msgstr "Passage de l'état du PID %d au parent"
+
+#: init/state.c:2021
+#, c-format
+msgid "Failed to release D-Bus name: %s"
+msgstr ""
+
+#: init/state.c:2030
+msgid "Failed to write serialisation data"
+msgstr "Échec de l'écriture des données de sérialisation"
+
+#: init/system.c:236
+msgid "Unable to create device"
+msgstr "Impossible de créer l'appareil"
+
+#: util/initctl.c:366
+msgid "Unable to connect to system bus"
+msgstr "Impossible de se connecter au bus système"
+
+#: util/initctl.c:367
+msgid "Unable to connect to session bus"
+msgstr "Impossible de se connecter au bus de session"
+
+#: util/initctl.c:376
+#, c-format
+msgid "%s: --dest given without --system\n"
+msgstr "%s : --dest donné sans --system\n"
+
+#: util/initctl.c:384
+msgid "Unable to connect to Upstart"
+msgstr "Impossible de se connecter à Upstart"
+
+#: util/initctl.c:593 util/initctl.c:728 util/initctl.c:856 util/initctl.c:991
+#: util/initctl.c:1085 util/initctl.c:1659 util/initctl.c:2804
+#, c-format
+msgid "%s: missing job name\n"
+msgstr "%s : nom de la tâche manquant\n"
+
+#: util/initctl.c:1389 util/initctl.c:1493
+#, c-format
+msgid "%s: missing variable name\n"
+msgstr "%s : nom de variable manquant\n"
+
+#: util/initctl.c:1439
+#, c-format
+msgid "%s: missing variable value\n"
+msgstr "%s : valeur de variable manquante\n"
+
+#: util/initctl.c:1724
+#, c-format
+msgid "%s: missing event name\n"
+msgstr "%s : nom de l'évènement manquant\n"
+
+#: util/initctl.c:1921
+msgid "Invalid job class"
+msgstr "Classe de tâche invalide"
+
+#: util/initctl.c:2013
+msgid "Unable to query session directory"
+msgstr ""
+
+#: util/initctl.c:2066
+msgid "Ignoring stale session file"
+msgstr ""
+
+#: util/initctl.c:2667
+msgid "unknown event"
+msgstr "événement inconnu"
+
+#: util/initctl.c:2671
+msgid "unknown job"
+msgstr "tâche inconnue"
+
+#: util/initctl.c:2830
+msgid "use D-Bus session bus to connect to init daemon (for testing)"
+msgstr ""
+"utiliser le bus de session D-Bus pour se connecter au démon init (pour "
+"tester)"
+
+#: util/initctl.c:2832
+msgid "use D-Bus system bus to connect to init daemon"
+msgstr "utiliser le bus système D-Bus pour se connecter au démon init"
+
+#: util/initctl.c:2834
+msgid "destination well-known name on D-Bus bus"
+msgstr ""
+
+#: util/initctl.c:2836
+msgid "run in user mode (as used for user sessions)"
+msgstr ""
+
+#: util/initctl.c:2849
+msgid "do not wait for job to start before exiting"
+msgstr "ne pas attendre que la tâche démarre avant de quitter"
+
+#: util/initctl.c:2861
+msgid "do not wait for job to stop before exiting"
+msgstr "ne pas attendre que la tâche s'arrête avant de quitter"
+
+#: util/initctl.c:2873
+msgid "do not wait for job to restart before exiting"
+msgstr "ne pas attendre que la tâche redémarre avant de quitter"
+
+#: util/initctl.c:2912
+msgid "do not wait for event to finish before exiting"
+msgstr "ne pas attendre la fin de l'évènement avant de quitter"
+
+#: util/initctl.c:2953
+msgid ""
+"enumerate list of events and jobs causing job created from job config to "
+"start/stop"
+msgstr ""
+
+#: util/initctl.c:2966
+msgid "ignore specified list of events (comma-separated)"
+msgstr "ignorer la liste spécifiée d'événements (séparés par des virgules)"
+
+#: util/initctl.c:2968
+msgid "Generate warning for any unreachable events/jobs"
+msgstr ""
+"Générer un avertissement pour tous les événements/tâches inaccessibles"
+
+#: util/initctl.c:2979 util/initctl.c:2992 util/initctl.c:3003
+#: util/initctl.c:3014 util/initctl.c:3025
+msgid "apply to global job environment table"
+msgstr "appliquer à la table globale d'environnement de la tâche"
+
+#: util/initctl.c:2981
+msgid "do not replace the value of the variable if already set"
+msgstr "ne pas remplacer la valeur de la variable si elle est déjà définie"
+
+#: util/initctl.c:3044
+msgid "Job"
+msgstr "Tâche"
+
+#: util/initctl.c:3051
+msgid "Event"
+msgstr "Évènement"
+
+#: util/initctl.c:3058
+msgid "Environment"
+msgstr "Environnement"
+
+#: util/initctl.c:3066 util/initctl.c:3078 util/initctl.c:3089
+#: util/initctl.c:3100 util/initctl.c:3107
+msgid "JOB [KEY=VALUE]..."
+msgstr "TÂCHE [CLÉ=VALEUR]..."
+
+#: util/initctl.c:3067
+msgid "Start job."
+msgstr "Démarrer la tâche."
+
+#: util/initctl.c:3068
+msgid ""
+"JOB is the name of the job that is to be started, this may be followed by "
+"zero or more environment variables to be defined in the new job.\n"
+"\n"
+"The environment may also serve to distinguish between job instances, and "
+"thus decide whether a new instance will be started or an error returned if "
+"an existing instance is already running."
+msgstr ""
+"JOB est le nom de la tâche à démarrer, ceci peut éventuellement être suivi "
+"d'une ou plusieurs variables d'environnement destinées à être définies dans "
+"la nouvelle tâche.\n"
+"\n"
+"L'environnement peut aussi servir à distinguer les différentes instances des "
+"tâches, et ainsi décider du démarrage d'une nouvelle instance ou du retour "
+"d'une erreur si une instance existante est déjà en cours d'exécution."
+
+#: util/initctl.c:3079
+msgid "Stop job."
+msgstr "Arrêter la tâche."
+
+#: util/initctl.c:3080
+msgid ""
+"JOB is the name of the job that is to be stopped, this may be followed by "
+"zero or more environment variables to be passed to the job's pre-stop and "
+"post-stop processes.\n"
+"\n"
+"The environment also serves to distinguish between job instances, and thus "
+"decide which of multiple instances will be stopped."
+msgstr ""
+"TÂCHE est le nom de la tâche qui va être arrêtée, il peut être suivi de "
+"variables d'environnement qui seront passées au processus pré-arrêt et post-"
+"arrêt de la tâche.\n"
+"\n"
+"L'environnement sert aussi à distinguer les instances d'une tâche, et donc à "
+"décider quelle instance sera arrêtée."
+
+#: util/initctl.c:3090
+msgid "Restart job."
+msgstr "Redémarrer la tâche."
+
+#: util/initctl.c:3091
+msgid ""
+"JOB is the name of the job that is to be restarted, this may be followed by "
+"zero or more environment variables to be defined in the job after "
+"restarting.\n"
+"\n"
+"The environment also serves to distinguish between job instances, and thus "
+"decide which of multiple instances will be restarted."
+msgstr ""
+"TÂCHE est le nom de la tâche qui va être redémarrée, il peut être suivi de "
+"variables d'environnement qui seront définies dans la tâche après son "
+"redémarrage.\n"
+"\n"
+"L'environnement sert aussi à distinguer les instances d'une tâche, et donc à "
+"décider quelle instance sera redémarrée."
+
+#: util/initctl.c:3101
+msgid "Send HUP signal to job."
+msgstr "Envoi du signal HUP à la tâche."
+
+#: util/initctl.c:3102
+msgid ""
+"JOB is the name of the job that is to be sent the signal, this may be "
+"followed by zero or more environment variables to distinguish between job "
+"instances.\n"
+msgstr ""
+"JOB est le nom de la tâche à laquelle envoyer un signal, il peut-être suivi "
+"par zéro variables d'environnement ou plus afin de distinguer les instances "
+"de tâches.\n"
+
+#: util/initctl.c:3108
+msgid "Query status of job."
+msgstr "Demander l'état de la tâche."
+
+#: util/initctl.c:3109
+msgid ""
+"JOB is the name of the job that is to be queried, this may be followed by "
+"zero or more environment variables to distguish between job instances.\n"
+msgstr ""
+"TÂCHE est le nom de la tâche qui doit être interrogée, il peut être suivi de "
+"variables d'environnement permettant de distinguer les instances de la "
+"tâche.\n"
+
+#: util/initctl.c:3115
+msgid "List known jobs."
+msgstr "Afficher les tâches connues."
+
+#: util/initctl.c:3116
+msgid "The known jobs and their current status will be output."
+msgstr "Les tâches connues et leurs états actuels seront affichés."
+
+#: util/initctl.c:3119
+msgid "EVENT [KEY=VALUE]..."
+msgstr "ÉVÉNEMENT [CLÉ=VALEUR]..."
+
+#: util/initctl.c:3120
+msgid "Emit an event."
+msgstr "Émettre un événement."
+
+#: util/initctl.c:3121
+msgid ""
+"EVENT is the name of an event the init daemon should emit, this may be "
+"followed by zero or more environment variables to be included in the event.\n"
+msgstr ""
+"ÉVÉNEMENT est le nom d'un événement que le démon init doit émettre, il peut "
+"être suivi de variables à inclure dans l'événement.\n"
+
+#: util/initctl.c:3127
+msgid "Reload the configuration of the init daemon."
+msgstr "Recharger la configuration du démon init."
+
+#: util/initctl.c:3131
+msgid "Request the version of the init daemon."
+msgstr "Demander la version du démon init."
+
+#: util/initctl.c:3134
+msgid "[PRIORITY]"
+msgstr "[PRIORITÉ]"
+
+#: util/initctl.c:3135
+msgid "Change the minimum priority of log messages from the init daemon."
+msgstr ""
+
+#: util/initctl.c:3137
+msgid ""
+"PRIORITY may be one of:\n"
+"  `debug' (messages useful for debugging upstart are logged, equivalent to --"
+"debug on kernel command-line);\n"
+"  `info' (messages about job goal and state changes, as well as event "
+"emissions are logged, equivalent to --verbose on the kernel command-line);\n"
+"  `message' (informational and debugging messages are suppressed, the "
+"default);   `warn' (ordinary messages are suppressed whilst still logging "
+"warnings and errors);\n"
+"  `error' (only errors are logged, equivalent to --quiet on the kernel "
+"command-line) or\n"
+"  `fatal' (only fatal errors are logged).\n"
+"\n"
+"Without arguments, this outputs the current log priority."
+msgstr ""
+"PRIORITÉ peut prendre une des valeurs suivantes : \n"
+"  `debug' (les messages utiles pour le débogage d'upstart sont enregistrés, "
+"équivalent à --debug en ligne de commande du noyau);\n"
+"  `info' (les messages sur l'objectif de la tâche et les changements d'état, "
+"ainsi que les émissions d'événements sont enregistrés, équivalent à --"
+"verbose en ligne de commande du noyau);\n"
+"  `message' (les messages d'information et de débogage sont supprimés, par "
+"défaut);\n"
+"  `warn' (les messages ordinaires sont supprimés alors que les "
+"avertissements et les erreurs sont enregistrés);\n"
+"  `error' (seules les erreurs sont enregistrées, équivalent à --quiet en "
+"ligne de commande du noyau);\n"
+"  `fatal' (seules les erreurs fatales sont enregistrées)."
+
+#: util/initctl.c:3154 util/initctl.c:3160
+msgid "[CONF]"
+msgstr "[CONF]"
+
+#: util/initctl.c:3155
+msgid "Show emits, start on and stop on details for job configurations."
+msgstr ""
+
+#: util/initctl.c:3156
+msgid ""
+"If CONF specified, show configuration details for single job configuration, "
+"else show details for all jobs configurations.\n"
+msgstr ""
+"Si CONF est spécifié, montrer les détails de configurations pour la "
+"configuration d'une seule tâche, sinon montrer les détails de configuration "
+"de toutes les tâches.\n"
+
+#: util/initctl.c:3161
+msgid "Check for unreachable jobs/event conditions."
+msgstr "Rechercher des conditions de tâches/événements inaccessibles."
+
+#: util/initctl.c:3162
+msgid ""
+"List all jobs and events which cannot be satisfied by currently available "
+"job configuration files."
+msgstr ""
+
+#: util/initctl.c:3166 util/initctl.c:3176 util/initctl.c:3186
+msgid "VARIABLE"
+msgstr "VARIABLE"
+
+#: util/initctl.c:3167
+msgid "Retrieve value of a job environment variable."
+msgstr ""
+
+#: util/initctl.c:3168
+msgid "Display the value of a variable from the job environment table."
+msgstr ""
+
+#: util/initctl.c:3172
+msgid "Show all job environment variables."
+msgstr ""
+
+#: util/initctl.c:3173
+msgid ""
+"Displays sorted list of variables and their values from the job environment "
+"table."
+msgstr ""
+
+#: util/initctl.c:3177
+msgid "Revert all job environment variable changes."
+msgstr ""
+
+#: util/initctl.c:3178
+msgid ""
+"Discards all changes make to the job environment table, setting it back to "
+"its default value."
+msgstr ""
+
+#: util/initctl.c:3181
+msgid "VARIABLE[=VALUE]"
+msgstr "VARIABLE[=VALUE]"
+
+#: util/initctl.c:3182
+msgid "Set a job environment variable."
+msgstr ""
+
+#: util/initctl.c:3183
+msgid "Adds or updates a variable in the job environment table."
+msgstr ""
+
+#: util/initctl.c:3187
+msgid "Remove a job environment variable."
+msgstr ""
+
+#: util/initctl.c:3188
+msgid "Discards the specified variable from the job environment table."
+msgstr ""
+
+#: util/initctl.c:3191
+msgid "JOB"
+msgstr "JOB"
+
+#: util/initctl.c:3192
+msgid "Show job usage message if available."
+msgstr ""
+
+#: util/initctl.c:3193
+msgid "JOB is the name of the job which usage is to be shown.\n"
+msgstr ""
+
+#: util/initctl.c:3197
+msgid "Inform Upstart that disk is now writeable."
+msgstr "Informer Upstart que le disque est désormais accessible en écriture."
+
+#: util/initctl.c:3198
+msgid ""
+"Run to ensure output from jobs ending before disk is writeable are flushed "
+"to disk."
+msgstr ""
+
+#: util/initctl.c:3203
+msgid "List all sessions."
+msgstr ""
+
+#: util/initctl.c:3204
+msgid "Displays list of running Session Init sessions"
+msgstr ""
+
+#: util/reboot.c:116
+msgid "don't sync before reboot or halt"
+msgstr "ne pas synchroniser avant le redémarrage ou l'arrêt"
+
+#: util/reboot.c:118
+msgid "force reboot or halt, don't call shutdown(8)"
+msgstr "forcer le redémarrage ou l'arrêt, ne pas appeller shutdown(8)"
+
+#: util/reboot.c:120
+msgid "switch off the power when called as halt"
+msgstr "couper l'alimentation quand halt est appelé"
+
+#: util/reboot.c:122
+msgid "don't actually reboot or halt, just write wtmp record"
+msgstr ""
+"ne pas réellement redémarrer ou arrêter, écrire juste un enregistrement wtmp"
+
+#: util/reboot.c:148
+msgid "Halt the system."
+msgstr "Arrêter le système."
+
+#: util/reboot.c:151
+msgid "Power off the system."
+msgstr "Éteindre le système."
+
+#: util/reboot.c:154
+msgid "Reboot the system."
+msgstr "Redémarrer le système."
+
+#: util/reboot.c:158
+msgid ""
+"This command is intended to instruct the kernel to reboot or halt the "
+"system; when run without the -f option, or when in a system runlevel other "
+"than 0 or 6, it will actually execute /sbin/shutdown.\n"
+msgstr ""
+"Cette commande permet de demander au noyau de redémarrer ou d'arrêter le "
+"système; lorsqu'elle est exécutée sans l'option -f, ou si le niveau "
+"d'exécution du système est différent de 0 ou 6, c'est la commande "
+"/sbin/shutdown qui est lancée.\n"
+
+#: util/reboot.c:169 util/shutdown.c:370 util/telinit.c:247
+msgid "Couldn't set uid."
+msgstr ""
+
+#: util/reboot.c:222
+msgid "Calling shutdown"
+msgstr "Appel de shutdown"
+
+#: util/reboot.c:225
+#, c-format
+msgid "Unable to execute shutdown: %s"
+msgstr "Impossible d'exécuter shutdown : %s"
+
+#: util/reboot.c:246
+msgid "Rebooting"
+msgstr "Redémarrage"
+
+#: util/reboot.c:250
+msgid "Halting"
+msgstr "Arrêt en cours"
+
+#: util/reboot.c:254
+msgid "Powering off"
+msgstr "Extinction"
+
+#: util/reboot.c:258
+#, c-format
+msgid "Rebooting with %s"
+msgstr "Redémarrage avec %s"
+
+#: util/runlevel.c:59
+msgid "[UTMP]"
+msgstr "[UTMP]"
+
+#: util/runlevel.c:60
+msgid "Output previous and current runlevel."
+msgstr "Afficher les niveaux d'exécution précédent et actuel."
+
+#: util/runlevel.c:62
+msgid ""
+"The system /var/run/utmp file is used unless the alternate file UTMP is "
+"given.\n"
+msgstr ""
+"Le fichier système /var/run/utmp sera utilisé, à moins qu'un fichier UTMP "
+"spécifique soit fourni.\n"
+
+#: util/shutdown.c:201
+msgid "reboot after shutdown"
+msgstr "redémarrer après extinction"
+
+#: util/shutdown.c:203
+msgid "halt or power off after shutdown"
+msgstr "interrompre ou éteindre le système."
+
+#: util/shutdown.c:205
+msgid "halt after shutdown (implies -h)"
+msgstr "interrompre (implique -h)."
+
+#: util/shutdown.c:207
+msgid "power off after shutdown (implies -h)"
+msgstr "éteindre (implique -h)."
+
+#: util/shutdown.c:209
+msgid "cancel a running shutdown"
+msgstr "annuler un arrêt précédemment planifié."
+
+#: util/shutdown.c:211
+msgid "only send warnings, don't shutdown"
+msgstr "envoyer les avertissements, mais ne pas éteindre."
+
+#: util/shutdown.c:243
+msgid "TIME [MESSAGE]"
+msgstr "TEMPS [MESSAGE]"
+
+#: util/shutdown.c:244
+msgid "Bring the system down."
+msgstr "Permet d'éteindre ou de redémarrer l'ordinateur."
+
+#: util/shutdown.c:246
+msgid ""
+"TIME may have different formats, the most common is simply the word 'now' "
+"which will bring the system down immediately.  Other valid formats are +m, "
+"where m is the number of minutes to wait until shutting down and hh:mm which "
+"specifies the time on the 24hr clock.\n"
+"\n"
+"Logged in users are warned by a message sent to their terminal, you may "
+"include an optional MESSAGE included with this.  Messages can be sent "
+"without actually bringing the system down by using the -k option.\n"
+"\n"
+"If TIME is given, the command will remain in the foreground until the "
+"shutdown occurs.  It can be cancelled by Control-C, or by another user using "
+"the -c option.\n"
+"\n"
+"The system is brought down into maintenance (single-user) mode by default, "
+"you can change this with either the -r or -h option which specify a reboot "
+"or system halt respectively.  The -h option can be further modified with -H "
+"or -P to specify whether to halt the system, or to power it off afterwards.  "
+"The default is left up to the shutdown scripts."
+msgstr ""
+"TEMPS peut avoir différents formats, le plus commun étant simplement le mot "
+"'now' qui va éteindre le système immédiatement. Les autres formats valides "
+"sont +m, où m est le nombre de minutes à attendre avant d'éteindre et hh:mm "
+"qui spécifie l'heure d'extinction (sur 24 heures).\n"
+"\n"
+"Les utilisateurs connectés sont avertis par un message envoyé sur leurs "
+"terminaux, que vous pouvez compléter par un MESSAGE optionnel. Les messages "
+"peuvent être envoyé sans éteindre effectivement le système en utilisant "
+"l'option -k.\n"
+"\n"
+"Si TEMPS est spécifié, la commande restera au premier plan jusqu'à ce que "
+"l'arrêt se produise. Elle peut être annulée par Ctrl-C, ou par un autre "
+"utilisateur en utilisant l'option -c.\n"
+"\n"
+"Par défaut, le système passe en mode mono-utilisateur (niveau d'exécution "
+"1). Vous pouvez changer ce comportement avec les options -r ou -h, qui "
+"indiquent respectivement que l'on souhaite redémarrer ou éteindre "
+"l'ordinateur. L'option -h peut être précisée avec -H ou -P pour soit aller à "
+"l'état \"Halt\", soit aller jusqu'à mettre le système hors tension. L'option "
+"par défaut dépend des scripts d'arrêt."
+
+#: util/shutdown.c:284
+#, c-format
+msgid "%s: time expected\n"
+msgstr "%s : temps escompté\n"
+
+#: util/shutdown.c:308
+#, c-format
+msgid "%s: illegal hour value\n"
+msgstr "%s : valeur de l'heure incorrecte\n"
+
+#: util/shutdown.c:317
+#, c-format
+msgid "%s: illegal minute value\n"
+msgstr "%s : valeur des minutes incorrecte\n"
+
+#: util/shutdown.c:337
+#, c-format
+msgid "%s: illegal time value\n"
+msgstr "%s : valeur de la date incorrecte\n"
+
+#: util/shutdown.c:384
+msgid "Shutdown is not running"
+msgstr "Shutdown n'a pas démarré"
+
+#: util/shutdown.c:393
+msgid "Another shutdown is already running"
+msgstr "Une autre instance de shutdown est en cours d'exécution"
+
+#: util/shutdown.c:397
+msgid "Cannot find pid of running shutdown"
+msgstr ""
+"Impossible de trouver le pid de l'instance de shutdown en cours d'exécution"
+
+#: util/shutdown.c:411
+msgid "Unable to change directory"
+msgstr "Impossible de changer de répertoire"
+
+#: util/shutdown.c:425
+msgid "Unable to write pid file"
+msgstr "Impossible d'écrire le fichier de pid"
+
+#: util/shutdown.c:524
+msgid "Shutdown cancelled"
+msgstr "Extinction annulée"
+
+#: util/shutdown.c:609
+msgid "The system is going down for power off NOW!"
+msgstr "L'ordinateur va s'éteindre MAINTENANT !"
+
+#: util/shutdown.c:622
+msgid "The system is going down for halt NOW!"
+msgstr "L'ordinateur va s'arrêter MAINTENANT !"
+
+#: util/shutdown.c:635
+msgid "The system is going down for maintenance NOW!"
+msgstr "L'ordinateur va s'arrêter pour maintenance MAINTENANT !"
+
+#: util/shutdown.c:648
+msgid "The system is going down for reboot NOW!"
+msgstr "L'ordinateur va redémarrer MAINTENANT !"
+
+#: util/shutdown.c:695
+#, c-format
+msgid "Unable to fork child-process to warn users: %s"
+msgstr ""
+"Impossible de créer des processus fils pour avertir les utilisateurs : %s"
+
+#: util/shutdown.c:740
+#, c-format
+msgid "Broadcast message from %s@%s"
+msgstr "Message de diffusion de %s@%s"
+
+#: util/shutdown.c:742
+#, c-format
+msgid "(%s) at %d:%02d ..."
+msgstr "(%s) à %d:%02d..."
+
+#: util/telinit.c:194
+msgid "set environment variable in the runlevel event"
+msgstr ""
+"définir la variable d'environnement dans l'évènement du niveau d'exécution"
+
+#: util/telinit.c:215
+msgid "Change runlevel."
+msgstr "Changer de niveau d'exécution."
+
+#: util/telinit.c:217
+msgid ""
+"RUNLEVEL should be one of 0123456sS, where s and S are considered "
+"identical.\n"
+"\n"
+"RUNLEVEL may also be Q or q to instruct the init daemon to reload its "
+"configuration, this is rarely necessary since the daemon watches its "
+"configuration for changes.\n"
+"\n"
+"RUNLEVEL may be U or u to instruct the init daemon to re-execute itself, "
+"this is not recommended since Upstart does not currently preserve its "
+"state.\n"
+msgstr ""
+"0123456sS, où s et S sont considérées comme identiques, sont les seules "
+"valeurs possibles de la variable RUNLEVEL.\n"
+"\n"
+"La valeur attachée à la variable RUNLEVEL peut également être Q ou q pour "
+"ordonner au démon init de recharger sa configuration. Comme le démon "
+"surveille les changements dans sa configuration, cela est rarement "
+"nécessaire.\n"
+"\n"
+"La valeur attachée à la variable RUNLEVEL peut être U ou u pour ordonner au "
+"démon init sa ré-exécution. Cela n'est cependant pas recommandé car la "
+"version actuelle de Upstart ne permet pas de conserver sa situation.\n"
+
+#: util/telinit.c:234
+#, c-format
+msgid "%s: missing runlevel\n"
+msgstr "%s : niveau d'exécution manquant\n"
+
+#: util/telinit.c:239
+#, c-format
+msgid "%s: illegal runlevel: %s\n"
+msgstr "%s : niveau d'exécution incorrect : %s\n"
+
+#: extra/upstart-udev-bridge.c:85 extra/upstart-socket-bridge.c:130
+msgid "Detach and run in the background"
+msgstr "Détacher et exécuter en arrière plan"
+
+#: extra/upstart-udev-bridge.c:87
+msgid "Do not strip non-printable bytes from udev message data"
+msgstr ""
+
+#: extra/upstart-udev-bridge.c:106
+msgid "Bridge udev events into upstart"
+msgstr ""
+
+#: extra/upstart-udev-bridge.c:108
+msgid ""
+"By default, upstart-udev-bridge does not detach from the console and remains "
+"in the foreground.  Use the --daemon option to have it detach."
+msgstr ""
+
+#: extra/upstart-udev-bridge.c:122 extra/upstart-socket-bridge.c:180
+msgid "Could not connect to Upstart"
+msgstr "Impossible de se connecter à Upstart"
+
+#: extra/upstart-udev-bridge.c:136 extra/upstart-socket-bridge.c:194
+msgid "Could not create Upstart proxy"
+msgstr "Impossible de créer le serveur mandataire Upstart"
+
+#: extra/upstart-udev-bridge.c:160 extra/upstart-socket-bridge.c:250
+msgid "Unable to become daemon"
+msgstr "Impossible de devenir un démon"
+
+#: extra/upstart-udev-bridge.c:336 extra/upstart-socket-bridge.c:623
+msgid "Disconnected from Upstart"
+msgstr "Déconnecté de Upstart"
+
+#: extra/upstart-socket-bridge.c:148
+msgid "Bridge socket events into upstart"
+msgstr ""
+
+#: extra/upstart-socket-bridge.c:150
+msgid ""
+"By default, upstart-socket-bridge does not detach from the console and "
+"remains in the foreground.  Use the --daemon option to have it detach."
+msgstr ""
+
+#: extra/upstart-socket-bridge.c:163
+msgid "Could not create epoll descriptor"
+msgstr "Impossible de créer le descripteur epoll"
+
+#: extra/upstart-socket-bridge.c:207
+msgid "Could not create JobAdded signal connection"
+msgstr "Impossible de créer le signal de connection JobAdded"
+
+#: extra/upstart-socket-bridge.c:219
+msgid "Could not create JobRemoved signal connection"
+msgstr "Impossible de créer le signal de connection JobRemoved"
+
+#: extra/upstart-socket-bridge.c:231
+msgid "Could not obtain job list"
+msgstr "Impossible d'obtenir la liste des tâches"
+
+#: extra/upstart-socket-bridge.c:287
+msgid "Error from epoll"
+msgstr "Erreur de epoll"
+
+#: extra/upstart-socket-bridge.c:350
+msgid "Could not send socket event"
+msgstr "Impossible d'envoyer l'événement de socket"
+
+#: extra/upstart-socket-bridge.c:642
+msgid "Error emitting socket event"
+msgstr "Erreur d'émission de l’évènement de socket"
+
+#: scripts/upstart-monitor.py:64
+msgid "WARNING"
+msgstr "AVERTISSEMENT"
+
+#: scripts/upstart-monitor.py:64
+msgid "GUI modules not available - falling back to CLI"
+msgstr ""
+
+#: scripts/upstart-monitor.py:286
+msgid "Version"
+msgstr "Version"
+
+#: scripts/upstart-monitor.py:333
+msgid "Error saving file"
+msgstr "Erreur lors de l'enregistrement du fichier"
+
+#: scripts/upstart-monitor.py:350
+msgid "No events to save"
+msgstr ""
+
+#: scripts/upstart-monitor.py:358
+msgid "Save File"
+msgstr "Enregistrer le fichier"
+
+#: scripts/upstart-monitor.py:486
+msgid "Clear events"
+msgstr ""
+
+#: scripts/upstart-monitor.py:488
+msgid "Save events to default file"
+msgstr ""
+
+#: scripts/upstart-monitor.py:490
+msgid "Save events to specified file"
+msgstr ""
+
+#: scripts/upstart-monitor.py:492
+msgid "Exit application"
+msgstr "Quitter l'application"
+
+#: scripts/upstart-monitor.py:496
+msgid "Application details"
+msgstr ""
+
+#: scripts/upstart-monitor.py:501
+msgid "Copy"
+msgstr "Copier"
+
+#: scripts/upstart-monitor.py:558
+msgid "Index"
+msgstr ""
+
+#: scripts/upstart-monitor.py:562
+msgid "Time"
+msgstr ""
+
+#: scripts/upstart-monitor.py:566
+msgid "Event and environment"
+msgstr ""
+
+#: scripts/upstart-monitor.py:591 scripts/upstart-monitor.py:673
+msgid "Connected to"
+msgstr "Connecté à"
+
+#: scripts/upstart-monitor.py:622
+msgid "Upstart Event Monitor"
+msgstr ""
+
+#: scripts/upstart-monitor.py:626
+msgid "run in command-line mode"
+msgstr "exécuter en ligne de commande"
+
+#: scripts/upstart-monitor.py:629
+msgid "field separator to use for command-line output"
+msgstr "séparateur de champ à utiliser pour la sortie en ligne de commande"
+
+#: scripts/upstart-monitor.py:633
+msgid "connect to Upstart via specified D-Bus route"
+msgstr ""
+
+#: scripts/upstart-monitor.py:671
+msgid "console mode"
+msgstr "mode console"
+
+#: scripts/upstart-monitor.py:675
+msgid "Columns: time, event and environment"
+msgstr ""

@@ -1,0 +1,207 @@
+# Italian translation for indicator-power
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the indicator-power package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-power\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-10-14 03:56+0000\n"
+"PO-Revision-Date: 2013-09-20 08:08+0000\n"
+"Last-Translator: Milo Casagrande <milo.casagrande@gmail.com>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2013-10-24 12:04+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+
+#: ../data/com.canonical.indicator.power.gschema.xml.in.h:1
+msgid "Show time in Menu Bar"
+msgstr "Mostra il tempo nella barra dei menù"
+
+#: ../data/com.canonical.indicator.power.gschema.xml.in.h:2
+msgid "Whether or not to show the time in the menu bar."
+msgstr "Indica se mostrare oppure no il tempo nella barra dei menù."
+
+#: ../data/com.canonical.indicator.power.gschema.xml.in.h:3
+msgid "Show percentage in Menu Bar"
+msgstr "Mostra percentuale nella barra dei menù"
+
+#: ../data/com.canonical.indicator.power.gschema.xml.in.h:4
+msgid "Whether or not to show the percentage in the menu bar."
+msgstr "Indica se mostrare o meno la percentuale nella barra dei menù."
+
+#: ../data/com.canonical.indicator.power.gschema.xml.in.h:5
+msgid "When to show the battery status in the menu bar."
+msgstr ""
+"Indica se mostrare oppure no lo stato della batteria nella barra dei menù."
+
+#: ../data/com.canonical.indicator.power.gschema.xml.in.h:6
+msgid ""
+"Options for when to show battery status. Valid options are \"present\", "
+"\"charge\", and \"never\"."
+msgstr ""
+"Opzioni per la visualizzazione dello stato della batteria. Opzioni ammesse "
+"sono \"present\", \"change\" e \"never\"."
+
+#: ../src/device.c:459 ../src/device.c:460
+msgid "Unknown time"
+msgstr "Tempo sconosciuto"
+
+#: ../src/device.c:468
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i minuto"
+msgstr[1] "%i minuti"
+
+#: ../src/device.c:482
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i ora"
+msgstr[1] "%i ore"
+
+#. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
+#. * Swap order with "%2$s %2$i %1$s %1$i if needed
+#: ../src/device.c:490
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s e %i %s"
+
+#: ../src/device.c:491
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "ora"
+msgstr[1] "ore"
+
+#: ../src/device.c:492
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minuto"
+msgstr[1] "minuti"
+
+#. TRANSLATORS: system power cord
+#: ../src/device.c:504
+msgid "AC Adapter"
+msgstr "Adattatore AC"
+
+#. TRANSLATORS: laptop primary battery
+#: ../src/device.c:508 ../src/service.c:335
+msgid "Battery"
+msgstr "Batteria"
+
+#. TRANSLATORS: battery-backed AC power source
+#: ../src/device.c:512
+msgid "UPS"
+msgstr "UPS"
+
+#. TRANSLATORS: a monitor is a device to measure voltage and current
+#: ../src/device.c:516
+msgid "Monitor"
+msgstr "Misuratore"
+
+#. TRANSLATORS: wireless mice with internal batteries
+#: ../src/device.c:520
+msgid "Mouse"
+msgstr "Mouse"
+
+#. TRANSLATORS: wireless keyboard with internal battery
+#: ../src/device.c:524
+msgid "Keyboard"
+msgstr "Tastiera"
+
+#. TRANSLATORS: portable device
+#: ../src/device.c:528
+msgid "PDA"
+msgstr "PDA"
+
+#. TRANSLATORS: cell phone (mobile...)
+#: ../src/device.c:532
+msgid "Cell phone"
+msgstr "Telefono cellulare"
+
+#. TRANSLATORS: media player, mp3 etc
+#: ../src/device.c:536
+msgid "Media player"
+msgstr "Lettore multimediale"
+
+#. TRANSLATORS: tablet device
+#: ../src/device.c:540
+msgid "Tablet"
+msgstr "Tablet"
+
+#. TRANSLATORS: tablet device
+#: ../src/device.c:544
+msgid "Computer"
+msgstr "Computer"
+
+#. TRANSLATORS: unknown device
+#: ../src/device.c:548
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: ../src/device.c:567
+#, c-format
+msgid "%s (%s, %s)"
+msgstr "%s (%s, %s)"
+
+#: ../src/device.c:569 ../src/device.c:571
+#, c-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: ../src/device.c:575
+#, c-format
+msgid "(%s, %s)"
+msgstr "(%s, %s)"
+
+#: ../src/device.c:577 ../src/device.c:579
+#, c-format
+msgid "(%s)"
+msgstr "(%s)"
+
+#: ../src/device.c:624 ../src/device.c:625
+#, c-format
+msgid "%s to charge"
+msgstr "%s alla carica completa"
+
+#: ../src/device.c:630 ../src/device.c:631
+#, c-format
+msgid "%s left"
+msgstr "%s rimanente"
+
+#: ../src/device.c:643 ../src/device.c:644
+msgid "charged"
+msgstr "carica completa"
+
+#: ../src/device.c:648 ../src/device.c:649 ../src/device.c:650
+msgid "estimating…"
+msgstr "calcolo in corso..."
+
+#: ../src/device.c:658 ../src/device.c:659
+msgid "not present"
+msgstr "non presente"
+
+#: ../src/service.c:415
+msgid "Charge level"
+msgstr "Livello di carica"
+
+#: ../src/service.c:502
+msgid "Show Time in Menu Bar"
+msgstr "Mostrare il tempo nella barra dei menù"
+
+#: ../src/service.c:506
+msgid "Show Percentage in Menu Bar"
+msgstr "Mostra percentuale nella barra dei menù"
+
+#: ../src/service.c:510
+msgid "Power Settings…"
+msgstr "Impostazioni gestione alimentazione..."
+
+#: ../src/service.c:529
+msgid "Battery settings…"
+msgstr "Impostazioni batteria..."

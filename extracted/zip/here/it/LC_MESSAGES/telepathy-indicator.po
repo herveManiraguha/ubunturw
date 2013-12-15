@@ -1,0 +1,44 @@
+# Italian translation for telepathy-indicator
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the telepathy-indicator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: telepathy-indicator\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-10-14 05:13+0000\n"
+"PO-Revision-Date: 2012-03-23 07:58+0000\n"
+"Last-Translator: Milo Casagrande <milo.casagrande@gmail.com>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-24 12:17+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+
+#: ../data/telepathy-indicator.desktop.in.h:1
+msgid "Chat"
+msgstr "Conversazione"
+
+#: ../data/telepathy-indicator.desktop.in.h:2
+msgid "Telepathy Indicator Service"
+msgstr "Servizio indicatore Telepathy"
+
+#: ../src/indicator-approver.c:293
+#, c-format
+msgid "%s would like permission to see when you are online"
+msgstr "%s vorrebbe poter visualizzare la tua presenza in rete"
+
+#: ../src/indicator-approver.c:295
+#, c-format
+msgid "Subscription Request"
+msgstr "Richiesta di approvazione"
+
+#: ../src/indicator-approver.c:307
+msgid "_Decline"
+msgstr "_Rifiuta"
+
+#: ../src/indicator-approver.c:309
+msgid "_Accept"
+msgstr "_Accetta"

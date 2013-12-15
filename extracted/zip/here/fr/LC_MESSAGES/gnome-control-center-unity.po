@@ -1,0 +1,235 @@
+# French translation of gnome-control-center.
+# Copyright (C) 1998-2012 Free Software Foundation, Inc.
+# This file is under the same license as the gnome-control-center package.
+#
+# Vincent Renardias <vincent@ldsol.com>, 1998-1999.
+# Fabrice Bellet <fabrice.bellet@imag.fr>, 1999.
+# Thibaut Cousin <thibaut.cousin@clermont.in2p3.fr>, 1999.
+# Joaquim Fellmann <joaquim@hrnet.fr>, 2000.
+# Christophe Merlet <redfox@redfoxcenter.org>, 2000-2006.
+# Christophe Fergeau <teuf@users.sourceforge.net>, 2002.
+# Mathieu Gauthier-Pilote <mathieu.g.p@videotron.ca>, 2002.
+# Sebastien Oustric <sebastien.oustric@laposte.net>, 2002.
+# Simon Manlay <simon@solintech.fr>, 2005.
+# Vincent Untz <vuntz@gnome.org>, 2005.
+# Robert-André Mauchin <zebob.m@pengzone.org>, 2006-2008.
+# Jonathan Ernst <jonathan@ernstfamily.ch>, 2006-2007.
+# Benoît Dejean <benoit@placenet.org>, 2006.
+# Samuel Mutel <samuel.mutel@free.fr>, 2006.
+# Damien Durand <splinux@fedoraproject.org>, 2006.
+# Marc Lorber <linux-lorber@club-internet.fr>, 2006.
+# Stéphane Raimbault <stephane.raimbault@gmail.com>, 2007-2008.
+# Christophe Benz <christophe.benz@gmail.com>, 2007.
+# Claude Paroz <claude@2xlibre.net>, 2007-2011.
+# Bruno Brouard <annoa.b@gmail.com>, 2008-2012.
+# Laurent Coudeur <laurentc@iol.ie>, 2009, 2010.
+# Gérard Baylard <Geodebay@gmail.com>, 2011.
+# Grawok <grawok@gmx.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center HEAD\n"
+"Report-Msgid-Bugs-To: https://launchpad.net/gnome-control-center-unity\n"
+"POT-Creation-Date: 2013-10-14 09:17+0000\n"
+"PO-Revision-Date: 2013-07-02 17:27+0000\n"
+"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-24 12:21+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+"Language: \n"
+
+#: ../appearance/appearance.ui.h:1
+msgid "Tile"
+msgstr "Mosaïque"
+
+#: ../appearance/appearance.ui.h:2
+msgid "Zoom"
+msgstr "Zoom"
+
+#: ../appearance/appearance.ui.h:3
+msgid "Center"
+msgstr "Centré"
+
+#: ../appearance/appearance.ui.h:4
+msgid "Scale"
+msgstr "Redimensionné"
+
+#: ../appearance/appearance.ui.h:5
+msgid "Fill"
+msgstr "Rempli"
+
+#: ../appearance/appearance.ui.h:6
+msgid "Span"
+msgstr "Étendu"
+
+#: ../appearance/appearance.ui.h:7
+msgid "<b>Background</b>"
+msgstr "<b>Arrière-plan</b>"
+
+#. This refers to a slideshow background
+#: ../appearance/appearance.ui.h:9
+msgid "Changes throughout the day"
+msgstr "Évolue au cours de la journée"
+
+#: ../appearance/appearance.ui.h:10
+msgid "Add wallpaper"
+msgstr "Ajouter un papier peint"
+
+#: ../appearance/appearance.ui.h:11
+msgid "Remove wallpaper"
+msgstr "Supprimer le papier peint"
+
+#: ../appearance/appearance.ui.h:12
+msgid "Add dots"
+msgstr "Ajouter des points"
+
+#: ../appearance/appearance.ui.h:13
+msgid "<b>Theme</b>"
+msgstr "<b>Thème</b>"
+
+#: ../appearance/appearance.ui.h:14
+msgid "<b>Launcher icon size</b>"
+msgstr "<b>Taille des icônes du lanceur</b>"
+
+#: ../appearance/appearance.ui.h:15
+msgid "Look"
+msgstr "Aspect"
+
+#: ../appearance/appearance.ui.h:16
+msgid "<b>Auto-hide the Launcher</b>"
+msgstr "<b>Cacher automatiquement le lanceur</b>"
+
+#: ../appearance/appearance.ui.h:17
+msgid ""
+"<span size=\"small\">The launcher will reveal when moving the pointer to the "
+"defined hot spot.</span>"
+msgstr ""
+"<span size=\"small\">Le lanceur apparaîtra lors du déplacement du curseur "
+"sur la zone sensitive.</span>"
+
+#: ../appearance/appearance.ui.h:18
+msgid "Reveal location:"
+msgstr "Zone sensitive :"
+
+#: ../appearance/appearance.ui.h:19
+msgid "Left side"
+msgstr "Côté gauche"
+
+#: ../appearance/appearance.ui.h:20
+msgid "Top left corner"
+msgstr "Coin supérieur gauche"
+
+#: ../appearance/appearance.ui.h:21
+msgid "Other reveal option"
+msgstr "Autres options d'apparition"
+
+#: ../appearance/appearance.ui.h:22
+msgid "Reveal sensitivity"
+msgstr "Sensibilité d'apparition"
+
+#: ../appearance/appearance.ui.h:23
+msgid "<small>Low</small>"
+msgstr "<small>Faible</small>"
+
+#: ../appearance/appearance.ui.h:24
+msgid "<small>High</small>"
+msgstr "<small>Forte</small>"
+
+#: ../appearance/appearance.ui.h:25
+msgid ""
+"Some settings have been overriden by an external program, press \"Restore "
+"Default Behaviors\"  to reset the behavior and return control to this panel."
+msgstr ""
+"Certains paramètres ont été modifiés par un programme externe, appuyez sur "
+"« Rétablir le comportement par défaut » pour revenir aux réglages d'origine "
+"et redonner le contrôle à ce volet."
+
+#: ../appearance/appearance.ui.h:26
+msgid "Enable workspaces"
+msgstr "Activer les espaces de travail"
+
+#: ../appearance/appearance.ui.h:27
+msgid "Add show desktop icon to the launcher"
+msgstr "Ajouter l'icône « Afficher le bureau » au lanceur"
+
+#: ../appearance/appearance.ui.h:28
+msgid "Restore Default Behaviours"
+msgstr "Rétablir le comportement par défaut"
+
+#: ../appearance/appearance.ui.h:29
+msgid "Behavior"
+msgstr "Comportement"
+
+#: ../appearance/gnome-unity-appearance-panel.desktop.in.h:1
+msgid "Appearance"
+msgstr "Apparence"
+
+#: ../appearance/gnome-unity-appearance-panel.desktop.in.h:2
+msgid "Change the background and the theme"
+msgstr "Modifier l'arrière-plan et le thème"
+
+#. Translators: those are keywords for the appearance control-center panel
+#: ../appearance/gnome-unity-appearance-panel.desktop.in.h:4
+msgid ""
+"Wallpaper;Background;Screen;Desktop;Theme;Appearance;Launcher;Unity;Menus;"
+msgstr ""
+"Papier-peint;Arrière-plan;Fond "
+"d'écran;Écran;Bureau;Thème;Apparence;Lanceur;Unity;Menus;"
+
+#: ../appearance/bg-colors-source.c:45
+msgid "Horizontal Gradient"
+msgstr "Dégradé horizontal"
+
+#: ../appearance/bg-colors-source.c:46
+msgid "Vertical Gradient"
+msgstr "Dégradé vertical"
+
+#: ../appearance/bg-colors-source.c:47
+msgid "Solid Color"
+msgstr "Couleur unie"
+
+#: ../appearance/cc-appearance-item.c:147
+msgid "multiple sizes"
+msgstr "plusieurs tailles"
+
+#. translators: 100 × 100px
+#. * Note that this is not an "x", but U+00D7 MULTIPLICATION SIGN
+#: ../appearance/cc-appearance-item.c:151
+#, c-format
+msgid "%d × %d"
+msgstr "%d × %d"
+
+#: ../appearance/cc-appearance-item.c:280
+msgid "No Desktop Background"
+msgstr "Aucun arrière-plan de bureau"
+
+#: ../appearance/cc-appearance-panel.c:1082
+msgid "Browse for more pictures"
+msgstr "Rechercher d'autres images"
+
+#: ../appearance/cc-appearance-panel.c:1174
+msgid "Current background"
+msgstr "Arrière-plan actuel"
+
+#: ../appearance/cc-appearance-panel.c:1370
+msgid "default"
+msgstr "par défaut"
+
+#: ../appearance/cc-appearance-panel.c:1884
+msgid "Wallpapers"
+msgstr "Papiers peints"
+
+#: ../appearance/cc-appearance-panel.c:1891
+msgid "Pictures Folder"
+msgstr "Dossier d'images"
+
+#: ../appearance/cc-appearance-panel.c:1898
+msgid "Colors & Gradients"
+msgstr "Couleurs et dégradés"
+
+#: ../appearance/cc-appearance-panel.c:1906
+msgid "Flickr"
+msgstr "Flickr"

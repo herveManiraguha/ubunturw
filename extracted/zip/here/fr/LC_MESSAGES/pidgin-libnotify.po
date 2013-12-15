@@ -1,0 +1,80 @@
+# French (fr) translation of gaim-libnotify.
+# Copyright (C) 2005, Ersplus <ersplus@free.fr>
+#
+# This file is distributed under the same license as gaim-libnotify.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gaim-libnotify\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-14 02:25+0000\n"
+"PO-Revision-Date: 2013-10-14 10:04+0000\n"
+"Last-Translator: Ersplus <ersplus@free.fr>\n"
+"Language-Team: French <ef@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-24 11:57+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+
+#: ../src/pidgin-libnotify.c:85
+msgid "New messages"
+msgstr "Nouveau message"
+
+#: ../src/pidgin-libnotify.c:90
+msgid "Only new conversations"
+msgstr "Seulement les nouvelles conversations"
+
+#: ../src/pidgin-libnotify.c:95
+msgid "Ignore events from blocked users"
+msgstr "Ignorer les evenements des utilsateurs bloqués"
+
+#: ../src/pidgin-libnotify.c:100
+msgid "Buddy signs on"
+msgstr "L'utilisateur se connecte"
+
+#: ../src/pidgin-libnotify.c:105
+msgid "Buddy signs off"
+msgstr "Le contact se déconnecte"
+
+#: ../src/pidgin-libnotify.c:110
+msgid "Only when available"
+msgstr "Seulement si disponible"
+
+#: ../src/pidgin-libnotify.c:115
+msgid "Replace Pidgin request dialogs with libnotify popups"
+msgstr ""
+"Remplacer les boîtes de dialogue de demande de Pidgin par des notifications "
+"libnotify"
+
+#: ../src/pidgin-libnotify.c:120
+msgid "Names to remove notifications for"
+msgstr "Noms pour lesquels supprimer les notifications"
+
+#: ../src/pidgin-libnotify.c:494
+msgid "Show"
+msgstr "Montrer"
+
+#: ../src/pidgin-libnotify.c:527
+msgid "is online"
+msgstr "est en ligne"
+
+#: ../src/pidgin-libnotify.c:556
+msgid "is offline"
+msgstr "est hors ligne"
+
+#: ../src/pidgin-libnotify.c:1441
+msgid "Libnotify Popups"
+msgstr "Popups Libnotify"
+
+#: ../src/pidgin-libnotify.c:1442
+msgid "Displays popups via libnotify."
+msgstr "Affiche des popups via libnotify."
+
+#: ../src/pidgin-libnotify.c:1443
+msgid ""
+"Pidgin-libnotify:\n"
+"Displays popups via libnotify."
+msgstr ""
+"Pidgin-libnotify :\n"
+"Affiche des fenêtres popup via libnotify."

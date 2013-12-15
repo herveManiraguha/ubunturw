@@ -1,0 +1,6 @@
+env
+*.pyc
+staticfiles
+*~
+.DS_Store
+*.sqlite3

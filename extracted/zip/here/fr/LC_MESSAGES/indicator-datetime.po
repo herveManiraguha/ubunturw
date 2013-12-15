@@ -1,0 +1,280 @@
+# French translations for PACKAGE package.
+# Copyright (C) 2010 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Canonical OEM, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-datetime\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-16 16:39+0000\n"
+"PO-Revision-Date: 2013-10-16 20:06+0000\n"
+"Last-Translator: PS Jenkins bot <ps-jenkins@lists.canonical.com>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-24 12:12+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+
+#: ../src/datetime-prefs.c:633
+msgid "You need to choose a location to change the time zone."
+msgstr "Vous devez choisir un lieu pour changer le fuseau horaire."
+
+#: ../src/datetime-prefs.c:665
+msgid "Unlock to change these settings"
+msgstr "Déverrouiller pour modifier ces réglages"
+
+#: ../src/datetime-prefs.c:666
+msgid "Lock to prevent further changes"
+msgstr "Verrouiller pour empêcher tout nouveau changement"
+
+#: ../src/datetime-prefs-locations.c:384
+msgid "You need to complete this location for it to appear in the menu."
+msgstr ""
+"Vous devez terminer la saisie de ce lieu pour le faire apparaître dans le "
+"menu."
+
+#: ../src/datetime-prefs-locations.c:620
+msgid "Location"
+msgstr "Lieu"
+
+#: ../src/datetime-prefs-locations.c:636
+msgid "Time"
+msgstr "Heure"
+
+#: ../src/service.c:487
+msgid "Date and Time"
+msgstr ""
+
+#: ../src/service.c:497
+#, c-format
+msgid "Unsupported date format “%s”"
+msgstr ""
+
+#: ../src/service.c:545
+#, c-format
+msgid "%s (has alarms)"
+msgstr "%s (a retourné des alertes)"
+
+#. title is day-of-week
+#. TRANSLATORS: a strftime(3) format showing full day events.
+#. * "%A" means a full text day (Wednesday), "%a" means abbreviated (Wed).
+#: ../src/service.c:555 ../src/service.c:737
+#, c-format
+msgid "%A"
+msgstr "%A"
+
+#. strftime(3) format string to show the day of the week and the date
+#: ../src/service.c:675
+msgid "%A, %e %B %Y"
+msgstr "%A, %e %B %Y"
+
+#. strftime(3) format string to show date
+#: ../src/service.c:689
+msgid "%e %B %Y"
+msgstr "%e %B %Y"
+
+#: ../src/service.c:731
+msgid "Daily"
+msgstr "Quotidien"
+
+#: ../src/service.c:845
+msgid "Clock"
+msgstr "Horloge"
+
+#. add the 'Add Event…' menuitem
+#: ../src/service.c:868
+msgid "Add Event…"
+msgstr "Ajouter un événement…"
+
+#: ../src/service.c:1254
+msgid "Date & Time Settings…"
+msgstr "Paramètres de date et d'heure…"
+
+#: ../src/service.c:1262
+msgid "Time & Date settings…"
+msgstr "Réglages de la date et de l'heure…"
+
+#. TRANSLATORS: This is a format string passed to strftime to combine the
+#. * date and the time.  The value of "%s\xE2\x80\x82%s" will result in a
+#. * string like this in US English 12-hour time: 'Fri Jul 16 11:50 AM'.
+#. * The space in between date and time is a Unicode en space
+#. * (E28082 in UTF-8 hex).
+#: ../src/utils.c:177
+#, c-format
+msgid "%s %s"
+msgstr "%s %s"
+
+#: ../src/utils.c:181 ../src/utils.c:185
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: ../src/utils.c:280
+msgid "Tomorrow"
+msgstr "Demain"
+
+#. a strftime(3) fmt string for abbreviated day of week
+#. TRANSLATORS: a strftime(3) format showing the weekday
+#: ../src/utils.c:285 ../src/utils.c:348
+#, c-format
+msgid "%a"
+msgstr "%a"
+
+#. a strftime(3) fmt string for day-of-month and abbreviated month
+#: ../src/utils.c:290
+msgid "%d %b"
+msgstr "%d %b"
+
+#. a strftime(3) fmt string for a H:MM 12 hour time, eg "6:59 PM"
+#. TRANSLATORS: a strftime(3) format for 12hr time
+#: ../src/utils.c:301 ../src/utils.c:395
+msgid "%l:%M %p"
+msgstr "%l:%M %p"
+
+#. a strftime(3) fmt string for a 12 hour on-the-hour time, eg "7 PM"
+#: ../src/utils.c:316
+msgid "%l %p"
+msgstr "%l %p"
+
+#. TRANSLATORS: a strftime(3) format showing the date and weekday
+#: ../src/utils.c:342
+msgid "%a %b %e"
+msgstr "%a %e %b"
+
+#. TRANSLATORS: a strftime(3) format showing the date
+#: ../src/utils.c:345
+msgid "%b %e"
+msgstr "%e %b"
+
+#. TRANSLATORS: a strftime(3) format for 12hr time w/seconds
+#: ../src/utils.c:392
+msgid "%l:%M:%S %p"
+msgstr "%l:%M:%S %p"
+
+#. TRANSLATORS: a strftime(3) format for 24hr time w/seconds
+#: ../src/utils.c:398
+msgid "%H:%M:%S"
+msgstr "%H:%M:%S"
+
+#. TRANSLATORS: a strftime(3) format for 24hr time
+#: ../src/utils.c:401
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: ../data/datetime-dialog.ui.h:1
+msgid "Locations"
+msgstr "Lieux"
+
+#: ../data/datetime-dialog.ui.h:2
+msgid "Add a Location…"
+msgstr "Ajouter un lieu…"
+
+#: ../data/datetime-dialog.ui.h:3
+msgid "Remove This Location"
+msgstr "Supprimer ce lieu"
+
+#: ../data/datetime-dialog.ui.h:4
+msgid "Sort by _Name"
+msgstr "Trier par _nom"
+
+#: ../data/datetime-dialog.ui.h:5
+msgid "Sort by _Time"
+msgstr "Trier par  _heure"
+
+#: ../data/datetime-dialog.ui.h:6
+msgid "_Location:"
+msgstr "_Lieu :"
+
+#: ../data/datetime-dialog.ui.h:7
+msgid "_Manually"
+msgstr "_Manuellement"
+
+#: ../data/datetime-dialog.ui.h:8
+msgid "_Automatically from the Internet"
+msgstr "_Automatiquement depuis Internet"
+
+#: ../data/datetime-dialog.ui.h:9
+msgid "Set the time:"
+msgstr "Régler l'heure :"
+
+#: ../data/datetime-dialog.ui.h:10
+msgid "_Date:"
+msgstr "_Date :"
+
+#: ../data/datetime-dialog.ui.h:11
+msgid "Tim_e:"
+msgstr "H_eure :"
+
+#: ../data/datetime-dialog.ui.h:12
+msgid "_Time & Date"
+msgstr "_Date et heure"
+
+#: ../data/datetime-dialog.ui.h:13
+msgid "_Show a clock in the menu bar"
+msgstr "Afficher l'horloge dan_s la barre de menu"
+
+#: ../data/datetime-dialog.ui.h:14
+msgid "In the clock, show:"
+msgstr "Dans l'horloge, afficher :"
+
+#: ../data/datetime-dialog.ui.h:15
+msgid "_Weekday"
+msgstr "_Jour de la semaine"
+
+#: ../data/datetime-dialog.ui.h:16
+msgid "_Date and month"
+msgstr "_Date et mois"
+
+#: ../data/datetime-dialog.ui.h:17
+msgid "_12-hour time"
+msgstr "Horloge sur _12 heures"
+
+#: ../data/datetime-dialog.ui.h:18
+msgid "_24-hour time"
+msgstr "Horloge sur _24 heures"
+
+#: ../data/datetime-dialog.ui.h:19
+msgid "Seco_nds"
+msgstr "Seco_ndes"
+
+#: ../data/datetime-dialog.ui.h:20
+msgid "In the clock’s menu, show:"
+msgstr "Dans le menu de l'horloge, afficher :"
+
+#: ../data/datetime-dialog.ui.h:21
+msgid "_Monthly calendar"
+msgstr "Calendrier _mensuel"
+
+#: ../data/datetime-dialog.ui.h:22
+msgid "Include week num_bers"
+msgstr "Inclure les numér_os de semaine"
+
+#: ../data/datetime-dialog.ui.h:23
+msgid "Coming _events from Evolution Calendar"
+msgstr "Évén_ements à venir du calendrier d'Evolution"
+
+#: ../data/datetime-dialog.ui.h:24
+msgid "Time in _auto-detected location"
+msgstr "Heure du lieu _autodétecté"
+
+#: ../data/datetime-dialog.ui.h:25
+msgid "Time in _other locations"
+msgstr "Heure d'a_utres lieux"
+
+#: ../data/datetime-dialog.ui.h:26
+msgid "Choose _Locations…"
+msgstr "Choisir des _lieux…"
+
+#: ../data/datetime-dialog.ui.h:27
+msgid "_Clock"
+msgstr "_Horloge"
+
+#: ../data/gnome-indicator-datetime-panel.desktop.in.h:1
+msgid "Time & Date"
+msgstr "Heure et date"
+
+#: ../data/gnome-indicator-datetime-panel.desktop.in.h:2
+msgid "Change your clock and date settings"
+msgstr "Modifier vos réglages de l'heure et de la date"

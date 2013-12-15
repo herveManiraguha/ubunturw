@@ -1,0 +1,499 @@
+# Italian translation for gst-plugins-good package of GStreamer project.
+# Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010 GStreamer core team
+# This file is distributed under the same license as the gst-plugins-good package.
+#
+# Luca Ferretti <elle.uca@infinito.it>, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: gst-plugins-good 0.10.25.3\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
+"POT-Creation-Date: 2013-09-24 14:19+0200\n"
+"PO-Revision-Date: 2013-10-17 07:29+0000\n"
+"Last-Translator: Matteo Cossar <Unknown>\n"
+"Language-Team: Italian <tp@lists.linux.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-24 12:19+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+"Language: it\n"
+
+#: ext/jack/gstjackaudiosink.c:358 ext/jack/gstjackaudiosrc.c:366
+msgid "Jack server not found"
+msgstr "Server Jack non trovato"
+
+#: ext/jpeg/gstjpegdec.c:924 ext/jpeg/gstjpegdec.c:1172
+#: ext/jpeg/gstjpegdec.c:1184 ext/jpeg/gstjpegdec.c:1213
+#: ext/jpeg/gstjpegdec.c:1222 ext/jpeg/gstjpegdec.c:1231
+#: ext/jpeg/gstjpegdec.c:1239
+msgid "Failed to decode JPEG image"
+msgstr "Decodifica dell'immagine JPEG non riuscita"
+
+#. TRANSLATORS: 'song title' by 'artist name'
+#: ext/pulse/pulsesink.c:3189
+#, c-format
+msgid "'%s' by '%s'"
+msgstr "«%s» di «%s»"
+
+#: ext/shout2/gstshout2.c:549
+msgid "Could not connect to server"
+msgstr "Impossibile connettersi al server"
+
+#: ext/soup/gstsouphttpsrc.c:658
+msgid "No URL set."
+msgstr "Nessun URL impostato."
+
+#: ext/soup/gstsouphttpsrc.c:886
+msgid "Server does not support seeking."
+msgstr "Il server non supporta il posizionamento."
+
+#: ext/soup/gstsouphttpsrc.c:1134
+msgid "Could not resolve server name."
+msgstr "Impossibile risolvere il nome del server."
+
+#: ext/soup/gstsouphttpsrc.c:1140
+msgid "Could not establish connection to server."
+msgstr "Impossibile stabilire la connessione al server."
+
+#: ext/soup/gstsouphttpsrc.c:1145
+msgid "Secure connection setup failed."
+msgstr "Impostazione della connessione sicura non riuscita."
+
+#: ext/soup/gstsouphttpsrc.c:1150
+msgid ""
+"A network error occured, or the server closed the connection unexpectedly."
+msgstr ""
+"Si è verificato un errore di rete, oppure il server ha chiuso la connessione "
+"in modo inatteso."
+
+#: ext/soup/gstsouphttpsrc.c:1156
+msgid "Server sent bad data."
+msgstr "In server ha inviato dati errati."
+
+#: gst/avi/gstavidemux.c:5382
+msgid "Internal data stream error."
+msgstr "Errore interno nello stream dei dati."
+
+#: gst/avi/gstavimux.c:1808
+msgid "No or invalid input audio, AVI stream will be corrupt."
+msgstr ""
+"Ingresso audio assente o non valido. Lo stream AVI risulterà danneggiato."
+
+#: gst/isomp4/qtdemux.c:565 gst/isomp4/qtdemux.c:569
+msgid "This file contains no playable streams."
+msgstr "Questo file non contiene alcuno stream riproducibile."
+
+#: gst/isomp4/qtdemux.c:615 gst/isomp4/qtdemux.c:4596
+#: gst/isomp4/qtdemux.c:4662 gst/isomp4/qtdemux.c:4847
+msgid "This file is invalid and cannot be played."
+msgstr "Questo file non è valido e non può essere riprodotto."
+
+#: gst/isomp4/qtdemux.c:2276
+msgid "Cannot play stream because it is encrypted with PlayReady DRM."
+msgstr ""
+"Non è possibile riprodurre il flusso perché cifrato con PlayReady DRM."
+
+#: gst/isomp4/qtdemux.c:2841 gst/isomp4/qtdemux.c:2917
+#: gst/isomp4/qtdemux.c:2960 gst/isomp4/qtdemux.c:5513
+#: gst/isomp4/qtdemux.c:5520 gst/isomp4/qtdemux.c:6162
+#: gst/isomp4/qtdemux.c:6598 gst/isomp4/qtdemux.c:6605
+#: gst/isomp4/qtdemux.c:8409
+msgid "This file is corrupt and cannot be played."
+msgstr "Questo file è alterato e non può essere riprodotto."
+
+#: gst/isomp4/qtdemux.c:3051
+msgid "Invalid atom size."
+msgstr "Dimensione atom non valida."
+
+#: gst/isomp4/qtdemux.c:3119
+msgid "This file is incomplete and cannot be played."
+msgstr "Questo file è incompleto e non può essere riprodotto."
+
+#: gst/isomp4/qtdemux.c:7261
+msgid "The video in this file might not play correctly."
+msgstr ""
+"Il video in questo file potrebbe non essere riprodotto correttamente."
+
+#: gst/isomp4/qtdemux.c:8446
+#, c-format
+msgid "This file contains too many streams. Only playing first %d"
+msgstr "Questo file contiene troppi stream. Riprodotti solo i primi %d"
+
+#: gst/rtsp/gstrtspsrc.c:5755
+msgid ""
+"No supported stream was found. You might need to install a GStreamer RTSP "
+"extension plugin for Real media streams."
+msgstr ""
+"Non è stato trovato alcuno stream supportato. Potrebbe essere necessario "
+"installare un plugin GStreamer di tipo estensione RTSP per gli stream Real "
+"media."
+
+#: gst/rtsp/gstrtspsrc.c:5760
+msgid ""
+"No supported stream was found. You might need to allow more transport "
+"protocols or may otherwise be missing the right GStreamer RTSP extension "
+"plugin."
+msgstr ""
+"Non è stato trovato alcuno stream supportato. Potrebbe essere necessario "
+"abilitare altri protocolli di trasporto oppure in alternativa potrebbe "
+"mancare il corretto plugin GStreamer di tipo estensione RTSP."
+
+#: gst/wavparse/gstwavparse.c:2457
+msgid "Internal data flow error."
+msgstr "Errore interno nel flusso di dati."
+
+#: sys/oss4/oss4-sink.c:495 sys/oss4/oss4-source.c:360
+#: sys/oss/gstosssink.c:384
+msgid ""
+"Could not open audio device for playback. Device is being used by another "
+"application."
+msgstr ""
+"Impossibile aprire il dispositivo audio per la riproduzione. Il dispositivo "
+"è attualmente usato da un'altra applicazione."
+
+#: sys/oss4/oss4-sink.c:505 sys/oss4/oss4-source.c:370
+#: sys/oss/gstosssink.c:391
+msgid ""
+"Could not open audio device for playback. You don't have permission to open "
+"the device."
+msgstr ""
+"Impossibile aprire il dispositivo audio per la riproduzione. Permessi non "
+"sufficienti per aprire il dispositivo."
+
+#: sys/oss4/oss4-sink.c:516 sys/oss4/oss4-source.c:381
+#: sys/oss/gstosssink.c:399
+msgid "Could not open audio device for playback."
+msgstr "Impossibile aprire il dispositivo audio per la riproduzione."
+
+#: sys/oss4/oss4-sink.c:525 sys/oss4/oss4-source.c:391
+msgid ""
+"Could not open audio device for playback. This version of the Open Sound "
+"System is not supported by this element."
+msgstr ""
+"Impossibile aprire il device audio per la riproduzione. Questa versione di "
+"Open Sound System non è supportata da questo elemento."
+
+#: sys/oss4/oss4-sink.c:648
+msgid "Playback is not supported by this audio device."
+msgstr "Questo device audio non supporta la riproduzione."
+
+#: sys/oss4/oss4-sink.c:655
+msgid "Audio playback error."
+msgstr "Errore nel riprodurre l'audio."
+
+#: sys/oss4/oss4-source.c:505
+msgid "Recording is not supported by this audio device."
+msgstr "Questo dispositivo audio non supporta la registrazione."
+
+#: sys/oss4/oss4-source.c:512
+msgid "Error recording from audio device."
+msgstr "Errore nel registrare dal dispositivo audio."
+
+#: sys/oss/gstosssrc.c:377
+msgid ""
+"Could not open audio device for recording. You don't have permission to open "
+"the device."
+msgstr ""
+"Impossibile aprire il dispositivo audio per la registrazione. Permessi non "
+"sufficienti per aprire il dispositivo."
+
+#: sys/oss/gstosssrc.c:385
+msgid "Could not open audio device for recording."
+msgstr "Impossibile aprire il dispositivo audio per la registrazione."
+
+#: sys/sunaudio/gstsunaudiomixeroptions.c:109
+msgid "Record Source"
+msgstr "Sorgente registrazione"
+
+#: sys/sunaudio/gstsunaudiomixeroptions.c:120
+msgid "Microphone"
+msgstr "Microfono"
+
+#: sys/sunaudio/gstsunaudiomixeroptions.c:121
+msgid "Line In"
+msgstr "Linea in"
+
+#: sys/sunaudio/gstsunaudiomixeroptions.c:122
+msgid "Internal CD"
+msgstr "CD interno"
+
+#: sys/sunaudio/gstsunaudiomixeroptions.c:123
+msgid "SPDIF In"
+msgstr "SPDIF in"
+
+#: sys/sunaudio/gstsunaudiomixeroptions.c:124
+msgid "AUX 1 In"
+msgstr "AUX 1 in"
+
+#: sys/sunaudio/gstsunaudiomixeroptions.c:125
+msgid "AUX 2 In"
+msgstr "AUX 2 in"
+
+#: sys/sunaudio/gstsunaudiomixeroptions.c:126
+msgid "Codec Loopback"
+msgstr "Loopback codec"
+
+#: sys/sunaudio/gstsunaudiomixeroptions.c:127
+msgid "SunVTS Loopback"
+msgstr "Loopback SunVTS"
+
+#: sys/sunaudio/gstsunaudiomixertrack.c:69
+msgid "Volume"
+msgstr "Volume"
+
+#: sys/sunaudio/gstsunaudiomixertrack.c:70
+msgid "Gain"
+msgstr "Guadagno"
+
+#: sys/sunaudio/gstsunaudiomixertrack.c:71
+msgid "Monitor"
+msgstr "Monitor"
+
+#: sys/sunaudio/gstsunaudiomixertrack.c:72
+msgid "Built-in Speaker"
+msgstr "Altop. incorporato"
+
+#: sys/sunaudio/gstsunaudiomixertrack.c:73
+msgid "Headphone"
+msgstr "Cuffia"
+
+#: sys/sunaudio/gstsunaudiomixertrack.c:74
+msgid "Line Out"
+msgstr "Linea out"
+
+#: sys/sunaudio/gstsunaudiomixertrack.c:75
+msgid "SPDIF Out"
+msgstr "SPDIF out"
+
+#: sys/sunaudio/gstsunaudiomixertrack.c:76
+msgid "AUX 1 Out"
+msgstr "AUX 1 out"
+
+#: sys/sunaudio/gstsunaudiomixertrack.c:77
+msgid "AUX 2 Out"
+msgstr "AUX 2 out"
+
+#: sys/v4l2/gstv4l2bufferpool.c:1164
+#, c-format
+msgid "Error reading %d bytes from device '%s'."
+msgstr "Errore nel leggere %d byte dal device «%s»."
+
+#: sys/v4l2/gstv4l2object.c:1262
+#, c-format
+msgid "Failed to enumerate possible video formats device '%s' can work with"
+msgstr ""
+"Enumerazione dei possibili formati video con cui il device «%s» può operare "
+"non riuscita"
+
+#: sys/v4l2/gstv4l2object.c:2297
+#, c-format
+msgid "Could not map buffers from device '%s'"
+msgstr "Impossibile mappare dei buffer dal device «%s»."
+
+#: sys/v4l2/gstv4l2object.c:2305
+#, c-format
+msgid "The driver of device '%s' does not support the IO method %d"
+msgstr "Il driver per il dispositivo «%s» non supporta il metodo di I/O %d"
+
+#: sys/v4l2/gstv4l2object.c:2312
+#, c-format
+msgid "The driver of device '%s' does not support any known IO method."
+msgstr ""
+"Il driver per il dispositivo «%s» non supporta alcun metodo di I/O "
+"conosciuto."
+
+#: sys/v4l2/gstv4l2object.c:2500
+#, c-format
+msgid "Device '%s' does not support video capture"
+msgstr "Il device «%s» non supporta la cattura video"
+
+#: sys/v4l2/gstv4l2object.c:2509
+#, c-format
+msgid "Device '%s' is busy"
+msgstr "Il device «%s» è occupato"
+
+#: sys/v4l2/gstv4l2object.c:2515 sys/v4l2/gstv4l2object.c:2526
+#, c-format
+msgid "Device '%s' cannot capture at %dx%d"
+msgstr "Il device «%s» non è in grado di catturare a %d×%d"
+
+#: sys/v4l2/gstv4l2object.c:2535
+#, c-format
+msgid "Device '%s' cannot capture in the specified format"
+msgstr "Il device «%s» non è in grado di catturare nel formato specificato"
+
+#: sys/v4l2/gstv4l2object.c:2548
+#, c-format
+msgid "Could not get parameters on device '%s'"
+msgstr "Impossibile ottenere i parametri sul device «%s»"
+
+#: sys/v4l2/gstv4l2object.c:2556
+msgid "Video device did not accept new frame rate setting."
+msgstr ""
+"Il dispositivo video non ha accettato l'impostazione per il framerate."
+
+#: sys/v4l2/gstv4l2object.c:2563
+msgid "Video device could not create buffer pool."
+msgstr "Il dispositivo video non può creare buffer pool."
+
+#: sys/v4l2/gstv4l2radio.c:138
+#, c-format
+msgid "Failed to get settings of tuner %d on device '%s'."
+msgstr ""
+"Recupero delle impostazioni del sintonizzatore %d dal dispositivo «%s» non "
+"riuscito."
+
+#: sys/v4l2/gstv4l2radio.c:145
+#, c-format
+msgid "Error getting capabilities for device '%s'."
+msgstr "Errore nel recuperare le capacità del dispositivo «%s»."
+
+#: sys/v4l2/gstv4l2radio.c:152
+#, c-format
+msgid "Device '%s' is not a tuner."
+msgstr "Il dispositivo «%s» non è un sintonizzatore."
+
+#: sys/v4l2/gstv4l2radio.c:179
+#, c-format
+msgid "Failed to get radio input on device '%s'. "
+msgstr ""
+"Recupero del segnale radio d'ingresso dal dispositivo «%s» non riuscito. "
+
+#: sys/v4l2/gstv4l2radio.c:202 sys/v4l2/v4l2_calls.c:956
+#, c-format
+msgid "Failed to set input %d on device %s."
+msgstr "Impostazione dell'ingresso %d sul device «%s» non riuscita."
+
+#: sys/v4l2/gstv4l2radio.c:236
+#, c-format
+msgid "Failed to change mute state for device '%s'."
+msgstr "Modifica dello stato di muto del dispositivo «%s» non riuscita."
+
+#: sys/v4l2/gstv4l2videooverlay.c:103 sys/v4l2/v4l2_calls.c:559
+#, c-format
+msgid "Cannot identify device '%s'."
+msgstr "Impossibile identificare il device «%s»."
+
+#: sys/v4l2/v4l2_calls.c:96
+#, c-format
+msgid ""
+"Error getting capabilities for device '%s': It isn't a v4l2 driver. Check if "
+"it is a v4l1 driver."
+msgstr ""
+"Errore nell'ottenere le funzionalità per il device «%s»: non è un driver "
+"v4l2. Controllare se si tratta di un driver v4l1."
+
+#: sys/v4l2/v4l2_calls.c:137
+#, c-format
+msgid "Failed to query attributes of input %d in device %s"
+msgstr ""
+"Interrogazione degli attributi dell'input %d nel device %s non riuscita"
+
+#: sys/v4l2/v4l2_calls.c:168
+#, c-format
+msgid "Failed to get setting of tuner %d on device '%s'."
+msgstr ""
+"Recupero delle impostazioni del sintonizzatore %d sul device «%s» non "
+"riuscito."
+
+#  norm è un paramentro pari a ntsc o pal (e forse altro. Si evince ad esempio
+#  dal comando di Video Lan Clien
+#
+#     vlc --color  #    v4l:/dev/video2:norm=ntsc:frequency=77250:size=640x480:#    adev=/dev/dsp2:audio=0 (...)
+#
+#  Qualche idea diversa da norma?  -Luca
+#: sys/v4l2/v4l2_calls.c:212
+#, c-format
+msgid "Failed to query norm on device '%s'."
+msgstr "Interrogazione di norm sul device «%s» non riuscita."
+
+#: sys/v4l2/v4l2_calls.c:408
+#, c-format
+msgid "Failed getting controls attributes on device '%s'."
+msgstr "Recupero degli attributi dei controlli sul device «%s» non riuscito."
+
+#: sys/v4l2/v4l2_calls.c:566
+#, c-format
+msgid "This isn't a device '%s'."
+msgstr "Questo non è un dispositivo «%s»."
+
+#: sys/v4l2/v4l2_calls.c:573
+#, c-format
+msgid "Could not open device '%s' for reading and writing."
+msgstr "Impossibile aprire il device «%s» in lettura e scrittura."
+
+#: sys/v4l2/v4l2_calls.c:580
+#, c-format
+msgid "Device '%s' is not a capture device."
+msgstr "Il device «%s» non è un dispositivo di cattura."
+
+#: sys/v4l2/v4l2_calls.c:588
+#, c-format
+msgid "Device '%s' is not a output device."
+msgstr "Il device «%s» non è un dispositivo di uscita."
+
+#: sys/v4l2/v4l2_calls.c:687
+#, c-format
+msgid "Failed to set norm for device '%s'."
+msgstr "Impostazione di norm per il device «%s» non riuscita."
+
+#: sys/v4l2/v4l2_calls.c:725
+#, c-format
+msgid "Failed to get current tuner frequency for device '%s'."
+msgstr ""
+"Recupero dell'attuale frequenza di sintonizzazione per il device «%s» non "
+"riuscita."
+
+#: sys/v4l2/v4l2_calls.c:767
+#, c-format
+msgid "Failed to set current tuner frequency for device '%s' to %lu Hz."
+msgstr ""
+"Impostazione dell'attuale frequenza di sintonizzazione per il device «%s» a "
+"%lu Hz non riuscita."
+
+#: sys/v4l2/v4l2_calls.c:801
+#, c-format
+msgid "Failed to get signal strength for device '%s'."
+msgstr "Recupero dell'intensità del segnale per il device «%s» non riuscito."
+
+#: sys/v4l2/v4l2_calls.c:837
+#, c-format
+msgid "Failed to get value for control %d on device '%s'."
+msgstr ""
+"Recupero del valore per il controllo %d sul device «%s» non riuscito."
+
+#: sys/v4l2/v4l2_calls.c:872
+#, c-format
+msgid "Failed to set value %d for control %d on device '%s'."
+msgstr ""
+"Impostazione al valore %d per il controllo %d sul device «%s» non riuscito."
+
+#: sys/v4l2/v4l2_calls.c:931
+#, c-format
+msgid ""
+"Failed to get current input on device '%s'. May be it is a radio device"
+msgstr ""
+"Recupero dell'attuale ingresso sul device «%s» non riuscito. Forse è un "
+"dispositivo radio"
+
+#: sys/v4l2/v4l2_calls.c:988
+#, c-format
+msgid ""
+"Failed to get current output on device '%s'. May be it is a radio device"
+msgstr ""
+"Recupero dell'output attuale sul dispositivo «%s» non riuscito. Forse è un "
+"dispositivo radio"
+
+#: sys/v4l2/v4l2_calls.c:1013
+#, c-format
+msgid "Failed to set output %d on device %s."
+msgstr "Impostazione dell'output %d sul dispositivo %s non riuscita."
+
+#: sys/ximage/gstximagesrc.c:788
+msgid "Changing resolution at runtime is not yet supported."
+msgstr ""
+"Il cambio della risoluzione durante l'esecuzione non è ancora supportato."
+
+#: sys/ximage/gstximagesrc.c:802
+msgid "Cannot operate without a clock"
+msgstr "Impossibile operare senza un clock"

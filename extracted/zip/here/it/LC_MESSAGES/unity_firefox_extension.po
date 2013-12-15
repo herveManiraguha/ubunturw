@@ -1,0 +1,85 @@
+# Italian translation for unity-firefox-extension
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the unity-firefox-extension package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: unity-firefox-extension\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2007-10-18 14:00+0100\n"
+"PO-Revision-Date: 2013-01-30 17:43+0000\n"
+"Last-Translator: Milo Casagrande <milo.casagrande@gmail.com>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-24 12:19+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+
+#: unity_webapps.properties:0
+msgid ""
+"Would you like to install %S (%S), for extra features and quicker access?"
+msgstr ""
+"Installare %S (%S) per avere funzionalità aggiuntive e un accesso più rapido?"
+
+#: unity_webapps.properties:1
+msgid "Yes"
+msgstr "Sì"
+
+#: unity_webapps.properties:2
+msgid "Y"
+msgstr "S"
+
+#: unity_webapps.properties:3
+msgid "No"
+msgstr "No"
+
+#: unity_webapps.properties:4
+msgid "N"
+msgstr "N"
+
+#: unity_webapps.properties:5
+msgid "Don't ask again"
+msgstr "Non chiedere più"
+
+#: unity_webapps.properties:6
+msgid "D"
+msgstr "P"
+
+#: unity_webapps.properties:7
+msgid "Desktop Integration"
+msgstr "Integrazione desktop"
+
+#: unity_webapps.properties:8
+msgid "Exceptions..."
+msgstr "Eccezioni..."
+
+#: unity_webapps.properties:9
+msgid "Prompt integration options for any website"
+msgstr "Visualizza opzioni di integrazione per tutti i siti"
+
+#: unity_webapps.properties:10
+msgid "These websites won't prompt any integration options"
+msgstr "Questi siti non visualizzeranno alcuna opzione d'integrazione"
+
+#: unity_webapps.properties:11
+msgid "Exceptions - Integrated websites"
+msgstr "Eccezioni - Siti web integrati"
+
+#: unity_webapps.properties:12
+msgid "Site"
+msgstr "Sito"
+
+#: unity_webapps.properties:13
+msgid "Close"
+msgstr "Chiudi"
+
+#: unity_webapps.properties:14
+msgid "Would you like to install %S, for extra features and quicker access?"
+msgstr ""
+"Installare %S per avere funzionalità aggiuntive e un accesso più rapido?"
+
+#: unity_webapps.properties:15
+msgid "Install"
+msgstr "Installa"

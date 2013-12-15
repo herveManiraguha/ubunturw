@@ -1,0 +1,22 @@
+# Italian translation for account-plugins
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the account-plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: account-plugins\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-10-14 10:05+0000\n"
+"PO-Revision-Date: 2013-01-28 09:47+0000\n"
+"Last-Translator: Milo Casagrande <milo.casagrande@gmail.com>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-24 12:19+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+
+#: ../data/providers/google.provider.in.in.h:1
+msgid "Includes Gmail, Google Docs, Google+, YouTube and Picasa"
+msgstr "Comprende Gmail, Google Docs, Google+, YouTube e Picasa"

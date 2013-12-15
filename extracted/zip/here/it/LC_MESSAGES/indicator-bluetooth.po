@@ -1,0 +1,67 @@
+# Italian translation for indicator-bluetooth
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the indicator-bluetooth package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-bluetooth\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-10-16 11:34+0000\n"
+"PO-Revision-Date: 2013-10-04 16:30+0000\n"
+"Last-Translator: Claudio Arseni <claudio.arseni@gmail.com>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-24 12:22+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+
+#: ../data/com.canonical.indicator.bluetooth.gschema.xml.in.h:1
+msgid "Whether or not to show the bluetooth indicator in the menu bar."
+msgstr ""
+"Indica se mostrare oppure no l'indicatore bluetooth nella barra dei menù."
+
+#: ../src/bluez.vala:379
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: ../src/desktop.vala:97
+msgid "Connection"
+msgstr "Connessione"
+
+#: ../src/desktop.vala:141
+msgid "Browse files…"
+msgstr "Esplora file..."
+
+#: ../src/desktop.vala:145
+msgid "Send files…"
+msgstr "Invia file..."
+
+#: ../src/desktop.vala:151
+msgid "Keyboard Settings…"
+msgstr "Impostazioni tastiera..."
+
+#: ../src/desktop.vala:157
+msgid "Mouse and Touchpad Settings…"
+msgstr "Impostazioni mouse e touchpad..."
+
+#: ../src/desktop.vala:164
+msgid "Sound Settings…"
+msgstr "Impostazioni audio..."
+
+#: ../src/desktop.vala:201
+msgid "Set Up New Device…"
+msgstr "Imposta nuovo dispositivo..."
+
+#: ../src/desktop.vala:203
+msgid "Bluetooth Settings…"
+msgstr "Impostazioni Bluetooth..."
+
+#: ../src/phone.vala:43
+msgid "Bluetooth settings…"
+msgstr "Impostazioni Bluetooth..."
+
+#: ../src/profile.vala:166
+msgid "Bluetooth"
+msgstr "Bluetooth"

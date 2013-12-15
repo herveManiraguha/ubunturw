@@ -1,0 +1,217 @@
+# Italian translation for gnome-control-center
+# Copyright (C) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
+# Alcune traduzioni sono state riprese da gnome-media
+# This file is relased with the same licence of gnome-control-center-package
+# Christopher R. Gabriel, 2001, 2002.
+# Alessio Dessì <alkex@inwind.it>, 2003, 2004, 2005, 2006, 2007.
+# Milo Casagrande <milo@ubuntu.com>, 2009, 2012.
+# Luca Ferretti <lferrett@gnome.org>, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center\n"
+"Report-Msgid-Bugs-To: https://launchpad.net/gnome-control-center-unity\n"
+"POT-Creation-Date: 2013-10-14 09:17+0000\n"
+"PO-Revision-Date: 2013-07-02 17:27+0000\n"
+"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"Language-Team: Italiano <tp@lists.linux.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-24 12:21+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+"Language: it\n"
+
+#: ../appearance/appearance.ui.h:1
+msgid "Tile"
+msgstr "Mosaico"
+
+#: ../appearance/appearance.ui.h:2
+msgid "Zoom"
+msgstr "Ingrandisci"
+
+#: ../appearance/appearance.ui.h:3
+msgid "Center"
+msgstr "Centra"
+
+#: ../appearance/appearance.ui.h:4
+msgid "Scale"
+msgstr "Scala"
+
+#: ../appearance/appearance.ui.h:5
+msgid "Fill"
+msgstr "Riempi"
+
+#: ../appearance/appearance.ui.h:6
+msgid "Span"
+msgstr "Estendi"
+
+#: ../appearance/appearance.ui.h:7
+msgid "<b>Background</b>"
+msgstr "<b>Sfondo</b>"
+
+# FIXME - in teoria possono cambiare anche durante la settimana, o il mese
+#. This refers to a slideshow background
+#: ../appearance/appearance.ui.h:9
+msgid "Changes throughout the day"
+msgstr "Cambia durante il giorno"
+
+#: ../appearance/appearance.ui.h:10
+msgid "Add wallpaper"
+msgstr "Aggiunge un rivestimento"
+
+#: ../appearance/appearance.ui.h:11
+msgid "Remove wallpaper"
+msgstr "Rimuove un rivestimento"
+
+#: ../appearance/appearance.ui.h:12
+msgid "Add dots"
+msgstr "Aggiungi puntini"
+
+#: ../appearance/appearance.ui.h:13
+msgid "<b>Theme</b>"
+msgstr "<b>Tema</b>"
+
+#: ../appearance/appearance.ui.h:14
+msgid "<b>Launcher icon size</b>"
+msgstr "<b>Dimensione icone del Launcher</b>"
+
+#: ../appearance/appearance.ui.h:15
+msgid "Look"
+msgstr "Aspetto"
+
+#: ../appearance/appearance.ui.h:16
+msgid "<b>Auto-hide the Launcher</b>"
+msgstr "<b>Scomparsa automatica del Launcher</b>"
+
+#: ../appearance/appearance.ui.h:17
+msgid ""
+"<span size=\"small\">The launcher will reveal when moving the pointer to the "
+"defined hot spot.</span>"
+msgstr ""
+"<span size=\"small\">Il Launcher viene mostrato quando si sposta il "
+"puntatore sull'area attiva definita.</span>"
+
+#: ../appearance/appearance.ui.h:18
+msgid "Reveal location:"
+msgstr "Area attiva:"
+
+#: ../appearance/appearance.ui.h:19
+msgid "Left side"
+msgstr "Bordo sinistro"
+
+#: ../appearance/appearance.ui.h:20
+msgid "Top left corner"
+msgstr "Angolo superiore sinistro"
+
+#: ../appearance/appearance.ui.h:21
+msgid "Other reveal option"
+msgstr "Altre opzioni per l'area attiva"
+
+#: ../appearance/appearance.ui.h:22
+msgid "Reveal sensitivity"
+msgstr "Sensibilità area attiva"
+
+#: ../appearance/appearance.ui.h:23
+msgid "<small>Low</small>"
+msgstr "<small>Bassa</small>"
+
+#: ../appearance/appearance.ui.h:24
+msgid "<small>High</small>"
+msgstr "<small>Alta</small>"
+
+#: ../appearance/appearance.ui.h:25
+msgid ""
+"Some settings have been overriden by an external program, press \"Restore "
+"Default Behaviors\"  to reset the behavior and return control to this panel."
+msgstr ""
+"Alcune impostazioni sono state modificate da un programma esterno. Premere "
+"«Ripristina predefiniti» per reimpostare il comportamento iniziale e far "
+"tornare il controllo a questo pannello."
+
+#: ../appearance/appearance.ui.h:26
+msgid "Enable workspaces"
+msgstr "Abilitare gli spazi di lavoro"
+
+#: ../appearance/appearance.ui.h:27
+msgid "Add show desktop icon to the launcher"
+msgstr "Aggiungere l'icona per mostrare la Scrivania nel Launcher"
+
+#: ../appearance/appearance.ui.h:28
+msgid "Restore Default Behaviours"
+msgstr "Ripristina predefiniti"
+
+#: ../appearance/appearance.ui.h:29
+msgid "Behavior"
+msgstr "Comportamento"
+
+#: ../appearance/gnome-unity-appearance-panel.desktop.in.h:1
+msgid "Appearance"
+msgstr "Aspetto"
+
+#: ../appearance/gnome-unity-appearance-panel.desktop.in.h:2
+msgid "Change the background and the theme"
+msgstr "Modifica lo sfondo e il tema"
+
+#. Translators: those are keywords for the appearance control-center panel
+#: ../appearance/gnome-unity-appearance-panel.desktop.in.h:4
+msgid ""
+"Wallpaper;Background;Screen;Desktop;Theme;Appearance;Launcher;Unity;Menus;"
+msgstr ""
+"Sfondo;Wallpaper;Rivestimento;Schermo;Tema;Temi;Aspetto;;Launcher;Unity;Menù;"
+"Menu;"
+
+#: ../appearance/bg-colors-source.c:45
+msgid "Horizontal Gradient"
+msgstr "Gradiente orizzontale"
+
+#: ../appearance/bg-colors-source.c:46
+msgid "Vertical Gradient"
+msgstr "Gradiente verticale"
+
+#: ../appearance/bg-colors-source.c:47
+msgid "Solid Color"
+msgstr "Tinta unita"
+
+#: ../appearance/cc-appearance-item.c:147
+msgid "multiple sizes"
+msgstr "dimensioni multiple"
+
+#. translators: 100 × 100px
+#. * Note that this is not an "x", but U+00D7 MULTIPLICATION SIGN
+#: ../appearance/cc-appearance-item.c:151
+#, c-format
+msgid "%d × %d"
+msgstr "%d × %d"
+
+#: ../appearance/cc-appearance-item.c:280
+msgid "No Desktop Background"
+msgstr "Nessuno sfondo per la scrivania"
+
+#: ../appearance/cc-appearance-panel.c:1082
+msgid "Browse for more pictures"
+msgstr "Esplora altre immagini"
+
+#: ../appearance/cc-appearance-panel.c:1174
+msgid "Current background"
+msgstr "Sfondo attuale"
+
+#: ../appearance/cc-appearance-panel.c:1370
+msgid "default"
+msgstr "predefinito"
+
+#: ../appearance/cc-appearance-panel.c:1884
+msgid "Wallpapers"
+msgstr "Rivestimenti"
+
+#: ../appearance/cc-appearance-panel.c:1891
+msgid "Pictures Folder"
+msgstr "Cartella Immagini"
+
+#: ../appearance/cc-appearance-panel.c:1898
+msgid "Colors & Gradients"
+msgstr "Colori e gradienti"
+
+#: ../appearance/cc-appearance-panel.c:1906
+msgid "Flickr"
+msgstr "Flickr"

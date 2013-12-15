@@ -1,0 +1,30 @@
+# Italian translation for ubuntu-geoip
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the ubuntu-geoip package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ubuntu-geoip\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-10-14 00:58+0000\n"
+"PO-Revision-Date: 2012-09-17 17:08+0000\n"
+"Last-Translator: Milo Casagrande <milo.casagrande@gmail.com>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-24 12:16+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+
+#: ../data/com.ubuntu.geoip.gschema.xml.in.h:1
+msgid "URL used to get information about the IP"
+msgstr "URL utilizzato per recuperare informazioni riguardo l'indirizzo IP"
+
+#: ../data/com.ubuntu.geoip.gschema.xml.in.h:2
+msgid ""
+"URL of a service that can be contacted and returns an XML file containing "
+"location information about the requestors IP address."
+msgstr ""
+"URL di un servizio che può essere contattato e che restituisce un file XML "
+"con le informazioni sulla posizione dell'indirizzo IP del richiedente."

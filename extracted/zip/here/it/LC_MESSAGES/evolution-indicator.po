@@ -1,0 +1,96 @@
+# Italian translation for evolution-indicator
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the evolution-indicator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: evolution-indicator\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-10-14 15:47+0000\n"
+"PO-Revision-Date: 2013-04-11 09:03+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2013-10-24 12:06+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+
+#: ../data/evolution-indicator.schemas.in.h:1
+msgid "Only create notifications for new mail in an Inbox."
+msgstr "Notifica solo i nuovi messaggi in «In arrivo»."
+
+#: ../data/evolution-indicator.schemas.in.h:2
+msgid "Play a sound for new mail."
+msgstr "Riproduce un suono per i nuovi messaggi."
+
+#: ../data/evolution-indicator.schemas.in.h:3
+msgid "Show a notification bubble."
+msgstr "Mostra una notifica."
+
+#: ../data/evolution-indicator.schemas.in.h:4
+msgid "Show new message count in the message indicator applet."
+msgstr "Mostra il numero di nuovi messaggi nell'applet indicatore messaggi."
+
+#: ../src/evolution-indicator.c:236
+#, c-format
+msgid "%d New Message"
+msgid_plural "%d New Messages"
+msgstr[0] "%d nuovo messaggio"
+msgstr[1] "%d nuovi messaggi"
+
+#: ../src/evolution-indicator.c:468 ../src/evolution-indicator.c:745
+#: ../src/evolution-indicator.c:750
+msgid "Inbox"
+msgstr "In arrivo"
+
+#: ../src/evolution-indicator.c:583
+msgid "Compose New Message"
+msgstr "Componi nuovo messaggio"
+
+#: ../src/evolution-indicator.c:588
+msgid "Contacts"
+msgstr "Contatti"
+
+#: ../src/evolution-indicator.c:736
+msgid "When new mail arri_ves in"
+msgstr "Quando arri_vano nuovi messaggi in"
+
+#: ../src/evolution-indicator.c:745 ../src/evolution-indicator.c:750
+msgid "any Inbox"
+msgstr "qualunque cartella «In arrivo»"
+
+#: ../src/evolution-indicator.c:746 ../src/evolution-indicator.c:751
+msgid "any Folder"
+msgstr "qualunque cartella"
+
+#. i18n: ':' is used in the end of the above line (When New Mail Arrives:)
+#: ../src/evolution-indicator.c:759
+msgid ":"
+msgstr ":"
+
+#: ../src/evolution-indicator.c:788
+msgid "Pla_y a sound"
+msgstr "Riprod_urre un suono"
+
+#: ../src/evolution-indicator.c:793
+msgid "_Display a notification"
+msgstr "_Visualizzare una notifica"
+
+#: ../src/evolution-indicator.c:798
+msgid "_Indicate new messages in the panel"
+msgstr "_Indicare i nuovi messaggi nel pannello"
+
+#: ../src/org-freedesktop-evolution-indicator.eplug.xml.h:1
+msgid "Evolution Indicator"
+msgstr "Indicatore Evolution"
+
+#: ../src/org-freedesktop-evolution-indicator.eplug.xml.h:2
+msgid "When New Mail Arrives"
+msgstr "All'arrivo di nuove email"
+
+#: ../src/org-freedesktop-evolution-indicator.eplug.xml.h:3
+msgid "Shows new mail count in a message indicator."
+msgstr "Mostra il conteggio delle nuove email nell'indicatore dei messaggi."

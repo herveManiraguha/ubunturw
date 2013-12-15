@@ -1,0 +1,109 @@
+# French translation for upower
+# Copyright (C) 2010 The Free Software Foundation, Inc
+# This file is distributed under the same license as the polkit package.
+# Christoph J. Thompson <cjsthompson@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: upower 0.9.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-23 10:50+0000\n"
+"PO-Revision-Date: 2013-01-11 12:37+0000\n"
+"Last-Translator: Pierre Slamich <pierre.slamich@gmail.com>\n"
+"Language-Team: French <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-24 12:12+0000\n"
+"X-Generator: Launchpad (build 16810)\n"
+
+#: ../policy/org.freedesktop.upower.policy.in.h:1
+msgid "Suspend the system"
+msgstr "Mettre le système en veille"
+
+#: ../policy/org.freedesktop.upower.policy.in.h:2
+msgid "Authentication is required to suspend the system"
+msgstr "Vous devez vous identifier pour mettre le système en veille"
+
+#: ../policy/org.freedesktop.upower.policy.in.h:3
+msgid "Hibernate the system"
+msgstr "Mettre le système en hibernation"
+
+#: ../policy/org.freedesktop.upower.policy.in.h:4
+msgid "Authentication is required to hibernate the system"
+msgstr "Vous devez vous identifier pour mettre le système en hibernation"
+
+#: ../policy/org.freedesktop.upower.qos.policy.in.h:1
+msgid "Set the required latency of an application"
+msgstr "Définir la latence requise d'une application"
+
+#: ../policy/org.freedesktop.upower.qos.policy.in.h:2
+msgid ""
+"Authentication is required to set the required latency of an application"
+msgstr ""
+"Vous devez vous identifier pour définir la latence requise d'une application"
+
+#: ../policy/org.freedesktop.upower.qos.policy.in.h:3
+msgid "Set a persistent latency setting"
+msgstr "Définir une latence persistante"
+
+#: ../policy/org.freedesktop.upower.qos.policy.in.h:4
+msgid "Authentication is required to set a persistent latency setting"
+msgstr "Vous devez vous identifier pour définir de latence persistante"
+
+#: ../policy/org.freedesktop.upower.qos.policy.in.h:5
+msgid "Set administrator settings for latency control"
+msgstr "Définir les paramètres administrateur pour le contrôle de la latence"
+
+#: ../policy/org.freedesktop.upower.qos.policy.in.h:6
+msgid ""
+"Authentication is required to set administrator settings for latency control"
+msgstr ""
+"Vous devez vous identifier pour définir les paramètres administrateur de "
+"contrôle de latence"
+
+#: ../policy/org.freedesktop.upower.qos.policy.in.h:7
+msgid "Cancel a latency request"
+msgstr "Annuler une demande de latence"
+
+#: ../policy/org.freedesktop.upower.qos.policy.in.h:8
+msgid "Authentication is required to cancel a latency request"
+msgstr "Vous devez vous identifier pour annuler une demande de latence"
+
+#. TRANSLATORS: exit after we've started up, used for user profiling
+#: ../src/up-main.c:199
+msgid "Exit after a small delay"
+msgstr "Terminer le processus après un court delai"
+
+#. TRANSLATORS: exit straight away, used for automatic profiling
+#: ../src/up-main.c:202
+msgid "Exit after the engine has loaded"
+msgstr "Terminer le processus après le chargement du moteur"
+
+#: ../src/up-main.c:204
+msgid "Show extra debugging information"
+msgstr "Affiche des informations de débogage supplémentaires"
+
+#: ../tools/up-tool.c:272
+msgid "Enumerate objects paths for devices"
+msgstr "Enumérer les chemins des objets des périphériques"
+
+#: ../tools/up-tool.c:273
+msgid "Dump all parameters for all objects"
+msgstr "Capturer tous les paramètres de tous les objets"
+
+#: ../tools/up-tool.c:274
+msgid "Get the wakeup data"
+msgstr "Obtenir les données de réveil"
+
+#: ../tools/up-tool.c:275
+msgid "Monitor activity from the power daemon"
+msgstr "Contrôller l'activité du démon de l'alimentation"
+
+#: ../tools/up-tool.c:276
+msgid "Monitor with detail"
+msgstr "Contrôller dans les détails"
+
+#: ../tools/up-tool.c:277
+msgid "Show information about object path"
+msgstr "Afficher les informations sur le chemin de l'objet"
